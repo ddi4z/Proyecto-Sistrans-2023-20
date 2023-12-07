@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="F10A7D35-1122-D803-2E10-AADB5299B94B" name="Restaurantes">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>681BB31F-830E-F7E1-BD4D-86C1E50BCB1C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="450F7690-C085-4013-4F61-3C1C55D3FAD1">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>5D02A8BA-863E-F342-4106-6E41C89EA6FB</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<referedAttribute>8399AB10-4C88-C7B4-0257-5B01C9F239AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacidad" id="8C61D7D9-22F2-2623-80E0-0B7286F3723D">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>E43C626D-1935-30A6-916D-3FBED63F4E79</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estilo" id="73458836-4021-C42D-A89A-833BE5F9DE45">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>172074E7-CE78-17DB-4C19-A459FEEE27DF</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04C55E37-A920-3DE5-5E33-2D6FEC9DCC40" name="Restaurantes PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>AEAD78C0-387A-CA3F-FA03-0EC2CFBEC512</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>450F7690-C085-4013-4F61-3C1C55D3FAD1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

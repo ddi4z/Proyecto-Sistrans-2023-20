@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3A3921D-DAF2-6D51-6079-908199A183C5" name="TiposHabitacion">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>8417DEEC-2796-A3D2-18E7-875E749FD143</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="693B22DC-1AE0-8E02-387E-6EECE629D94D">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>BB35F2FE-7924-D80B-C04A-4472E3294553</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="8ECCA25F-03FB-1C53-2D5B-FD629E616790">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>125BAED2-052F-D0EE-E2A0-9A2378615006</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidad" id="195E986A-751E-BC5F-3239-9A3557DC2906">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>FA8B14D3-C6BF-CF6C-216A-2E3A9FE4071A</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo_noche" id="6512D09D-3CE6-EF04-DCE6-7BA5EF15B507">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>898B362C-CF98-D38E-683F-B69FF489E201</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="519A01FC-CD2D-1F05-A516-3C5E3FD6D9AC" name="TiposHabitacion_PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>2EA8FE60-5E45-3B6D-1DF0-C61427FF5D1C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="693B22DC-1AE0-8E02-387E-6EECE629D94D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

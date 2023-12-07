@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Tipos de habitacion</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Lista de Tipos de habitacion</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>id</th>
+                    <th>nombre</th>
+                </tr>
+            </thead>
+            <th:block th:each="tipoHabitacion : ${tiposHabitacion}">
+                <tr>
+                    <td th:text="${tipoHabitacion.id}"></td>
+                    <td th:text="${tipoHabitacion.nombre}"></td>
+
+                    <td>
+                        <a th:href="@{tiposHabitacion/{id}/edit(id=${tipoHabitacion.id})}">Editar</a>
+                        <a th:href="@{tiposHabitacion/{id}/delete(id=${tipoHabitacion.id})}"
+                            onclick="return confirm('¿Estás seguro de borrar este tipo de habitacion?')">Borrar</a>
+                    </td>
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{tiposHabitacion/new}' class="btn btn-primary">Añadir tipo de habitacion</a>
+            <!-- <a th:href='@{sirven/new}' class="btn btn-primary">Añadir Bebida a Bar</a> -->
+            <a th:href='@{/hotel/administrador/tiposHabitacion}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>

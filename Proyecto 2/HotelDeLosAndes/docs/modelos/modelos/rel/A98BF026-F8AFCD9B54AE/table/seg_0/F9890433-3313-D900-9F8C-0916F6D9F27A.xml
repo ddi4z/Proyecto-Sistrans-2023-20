@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9890433-3313-D900-9F8C-0916F6D9F27A" name="SalonesConferencia">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>43892217-6815-2204-4910-CD5883DEC4AB</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>AA794F36-A3C6-4C8B-AFA4-8194CF5B037F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1D540A72-9417-BF6D-2A35-34D43198A300">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>9D56890C-4E39-D053-BEA8-1567DB736F89</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>BD40187D-4E80-3BCF-8CFA-ABD965496C10</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B068806-AEA9-E2C1-AFB7-E193F36DFC26" referredColumn="07FCCB6D-0160-3C2E-3DD0-4C6E6032A989"/>
+</associations>
+</Column>
+<Column name="capacidad" id="941AAEF0-2DE5-C7F5-0A80-A05DE8C88358">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>E3A96312-29E4-FA01-05AE-DE0116B6F422</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>C5C98442-BB1C-D3AF-389A-62417339BADD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo_hora" id="FDCB428F-22FA-E927-A104-7BE1043F444B">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>040243A1-23EB-9185-A01D-653E85562EB3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>01809A1E-D366-E260-CFD9-C8D70845F0E4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD4BDA8A-5371-74F3-BDD0-FA55750A6AA2" name="SalonesConferencia_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>9EC2BFC1-95E0-9C6A-EAA4-5DB35C45E9CD</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>B2A387D3-AEBA-83C6-749E-55246D7C8B13</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D540A72-9417-BF6D-2A35-34D43198A300"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDBD7183-80AE-22A0-9015-89B35EC5E292" name="ConferenciaServicio_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>074F0C79-53BC-2724-45BA-D10D9DF3FC45</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D540A72-9417-BF6D-2A35-34D43198A300"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

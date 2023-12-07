@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="368E79A4-A241-A95F-DA97-57ABDF6EDB17" name="Consumos">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>2EA2E1F4-3190-1BB1-68EC-CAEEE6DD38EE</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>7B199E2E-F8C5-FEEB-DF6D-EF4B53C27126</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="687CE19E-07A8-404C-143F-ED1D802E0C39">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>1BA1438D-4B41-862E-8D7F-D0F60D03FA5F</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>FA8E2540-FCD5-01A7-3A9D-4B0AFC95D359</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="A2B5F207-FECB-48A2-B460-4AB664804CF0">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>E2EA9FDE-75AD-D084-5779-0E1CC2F76E57</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>33454A6A-30B1-9C48-9611-F7C82A60D0CF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="00DDD792-0EB0-0377-C848-EFE4A6246B1D">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>96EB5E4D-3CA6-3CF2-50CF-9241F0A6EAA2</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>BAADCFA2-E372-1A09-B03A-6801479F972E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>510</dataTypeSize>
+<ownDataTypeParameters>510,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo" id="3DA4FF1E-34D0-1F80-1103-7E06EF8B7B8B">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>01B6245A-218F-A882-43F0-254A8178A9B0</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>9B6F514C-3EB5-1633-7435-DC2DC54BDE26</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pagado" id="7AE51C05-CFF2-B92B-64B8-2609B5943BF6">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>9024AD0E-B94B-5E7B-580D-85F6943C4098</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>DC0D29A5-1A4A-E91D-5872-D294CEABB53B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description="False"/>
+<valueDef value="1" description="True"/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="habitacion_id" id="93169CE3-35D1-CDD4-02D9-5A7949175579">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>BC46155C-2BEE-C20B-A815-1EF89489F5F6</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>4A4EFDC3-3691-43A6-FFA6-8F45F7B3B04F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76E413E2-4FAA-5A92-68E4-AB44A44E2981" referredColumn="61E8BD71-31F7-CEC2-71C2-21DA57E831B1"/>
+</associations>
+</Column>
+<Column name="servicio_id" id="EE382BF3-500D-6276-AC42-86D38ED4A56E">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>0E4181E9-4F21-5D07-43B9-2604E6862CE9</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>F851C364-5E78-817A-CF47-D8A6ED126586</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FFDEDD0-54A6-B9DA-2EE4-A0D3B492D3F9" referredColumn="07FCCB6D-0160-3C2E-3DD0-4C6E6032A989"/>
+</associations>
+</Column>
+<Column name="num_documento_cliente" id="0958EF77-FC60-DBC9-E6F6-EE0EA20D6B11">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>5887855F-8BC3-E20C-26ED-A973632BC8E3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="838CB753-9031-14DC-BEC9-F65BC26E6123" referredColumn="B2528156-FC8F-D5CD-532B-0C6670C03217"/>
+</associations>
+</Column>
+<Column name="num_documento_empleado" id="197A960B-CC05-5EED-151C-6395724001E0">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>77EE38D9-0CC9-4FD3-3AA4-38C929B8E0FD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F054855-1AF8-2C28-90A9-9C54B86144D0" referredColumn="B2528156-FC8F-D5CD-532B-0C6670C03217"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0995DD0-6EF7-4BC4-70AA-F9C4D5BF9E67" name="Consumos_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>15BED413-8F5B-A7BD-CFD4-E109D7DF43E3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>AE3F9DFF-6E25-1A8F-90DC-A3BB7DAF2090</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="687CE19E-07A8-404C-143F-ED1D802E0C39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C8680EE-1D46-084F-4419-A6DD41F68612" name="Consumos_Habitaciones_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>529CD140-1E28-3CB9-60B1-ECDFE41792FA</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93169CE3-35D1-CDD4-02D9-5A7949175579"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82976739-951A-9ECC-E42B-379EB134DA1B" name="Consumos_Usuarios_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>B29E0C80-AF84-637A-E4AE-A675FAD4734F</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0958EF77-FC60-DBC9-E6F6-EE0EA20D6B11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A97A292-4AFD-59DC-94FB-65BDF0E64F77" name="Consumos_Usuarios_FKv2">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>4D77DCD1-3CA4-86A9-7866-E64662207E02</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="197A960B-CC05-5EED-151C-6395724001E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F2F2F5E-CF0C-DA92-B440-87AFFE4F8504" name="Consumos_Servicios_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>78FF8B27-2966-8F0B-4DF4-7F27B7D286C5</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE382BF3-500D-6276-AC42-86D38ED4A56E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Spa</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+<form th:action="@{'/consultas/servicios/spas/' + ${id} + '/edit/save'}" th:object="${spa}" method="post">
+    <div th:replace="~{fragments/spaForm :: spaForm(titulo='Editar Spa', spa=${spa})}">
+    </div>
+</form>
+
+</body>
+</html>

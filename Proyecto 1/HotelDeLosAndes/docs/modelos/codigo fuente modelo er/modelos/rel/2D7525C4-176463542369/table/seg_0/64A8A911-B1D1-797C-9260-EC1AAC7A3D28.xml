@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64A8A911-B1D1-797C-9260-EC1AAC7A3D28" name="Bares">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>47509545-A56B-C518-4999-BE5133F35BB4</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D4BCC8CC-089B-E1B6-2C0C-42BC94C40C90">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>683CF0BC-45BE-F25C-A762-746F9E6A9313</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="413519A0-B574-7145-9B88-D30DFDE9313C" referredColumn="26137757-86F8-8D15-2570-6D89A4B2AA4B"/>
+</associations>
+</Column>
+<Column name="capacidad" id="DD693BD5-A65E-763B-2D03-DB0EAA1891E8">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>26DC395C-F603-9822-8FFB-52A7A98C34BB</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estilo" id="9EC33833-44AB-1C46-2555-3D2E1996A66F">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>53C14457-53A8-4FF5-836F-8AD5DE13326F</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3070F16-84D4-E0E2-84F8-6492D96E9D4A" name="Bares_PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>FBCB2DFE-0DE6-D0A7-33D5-1D234037A4BF</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4BCC8CC-089B-E1B6-2C0C-42BC94C40C90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE1163F3-617D-EB1C-D6C6-57142ACB428B" name="Bares_Servicios_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>0BAA95A7-D29C-D36C-9219-9F15E7B857DA</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4BCC8CC-089B-E1B6-2C0C-42BC94C40C90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

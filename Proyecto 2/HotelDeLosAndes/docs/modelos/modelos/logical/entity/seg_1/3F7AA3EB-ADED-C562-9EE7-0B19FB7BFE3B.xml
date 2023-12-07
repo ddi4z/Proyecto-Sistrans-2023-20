@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="3F7AA3EB-ADED-C562-9EE7-0B19FB7BFE3B" name="Spas">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>A2716A06-A39A-4F9A-60EA-93E406290B98</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="657758E1-7B8A-6E25-5B70-740828070217">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>2F9B93B9-A9EA-0E76-662E-61DD03CCE3FF</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<referedAttribute>8399AB10-4C88-C7B4-0257-5B01C9F239AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacidad" id="73BA1963-9843-AFC3-1D29-CAA7B492BCDF">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>2A63E907-5962-4489-4F68-D7859F0A6B0F</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D1426989-A612-F01C-FA42-3C73F3DAF5FF" name="Spas PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>6626661A-5D6B-3D16-3C84-6D0B8D465571</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>657758E1-7B8A-6E25-5B70-740828070217</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

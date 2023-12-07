@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de servicios por caracteristicas</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Lista de servicios</h1>
+    <h3 th:if="${General != null and not #lists.isEmpty(General)}">Servicios encontrados: </h3>
+    <table class="table table-hover table-bordered" th:if="${General != null and not #lists.isEmpty(General)}">
+        <thead class="thead-dark">
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <th:block th:each="servicio : ${General}">
+            <tr>
+                <td th:text="${servicio.id}"></td>
+                <td th:text="${servicio.nombre}"></td>
+                <td th:text="${servicio.tipo}"></td>
+            </tr>
+        </th:block>
+    </table>
+    <h3 th:if="${PrecioAsociado != null and not #lists.isEmpty(PrecioAsociado)}">Servicios con costo asociado: </h3>
+    <table class="table table-hover table-bordered" th:if="${PrecioAsociado != null and not #lists.isEmpty(PrecioAsociado)}">
+        <thead class="thead-dark">
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <th:block th:each="servicio : ${PrecioAsociado}">
+            <tr>
+                <td th:text="${servicio.id}"></td>
+                <td th:text="${servicio.nombre}"></td>
+                <td th:text="${servicio.tipo}"></td>
+            </tr>
+        </th:block>
+    </table>
+    <h3 th:if="${Promedio != null and not #lists.isEmpty(Promedio)}">Servicios sin costo asociado: </h3>
+    <table class="table table-hover table-bordered" th:if="${Promedio != null and not #lists.isEmpty(Promedio)}">
+        <thead class="thead-dark">
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <th:block th:each="servicio : ${Promedio}">
+            <tr>
+                <td th:text="${servicio.id}"></td>
+                <td th:text="${servicio.nombre}"></td>
+                <td th:text="${servicio.tipo}"></td>
+            </tr>
+        </th:block>
+    </table>
+
+    <div>
+        <a th:href='@{/gerente}' class="btn btn-primary">Volver Atrás</a>
+    </div>
+    <br />
+
+    </div>
+</body>
+
+</html>

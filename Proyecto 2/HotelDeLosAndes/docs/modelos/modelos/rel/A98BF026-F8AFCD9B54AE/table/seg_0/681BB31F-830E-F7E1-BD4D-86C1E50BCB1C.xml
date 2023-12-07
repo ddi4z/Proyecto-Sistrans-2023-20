@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="681BB31F-830E-F7E1-BD4D-86C1E50BCB1C" name="Restaurantes">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>91F9D7B9-6924-59BE-DDE5-752A1666A9D5</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>CE84C07B-0BB4-B5EC-D3A9-A8E05EA81C18</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="26E23D45-D68F-6E80-5707-7B00E5EC9479">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>FDBA5653-502E-5A70-F7DF-26A9B0BAA2E2</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>8B407311-88F1-9B1E-370C-0642A48A4B7F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="406011D0-212A-E10C-D520-105BB679D4C7" referredColumn="07FCCB6D-0160-3C2E-3DD0-4C6E6032A989"/>
+</associations>
+</Column>
+<Column name="capacidad" id="E43C626D-1935-30A6-916D-3FBED63F4E79">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>65DF611C-A9C9-BA78-8BFC-04A13AB48E88</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>A2AD6D53-C49E-64D3-81BD-C2DBF82188F9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estilo" id="172074E7-CE78-17DB-4C19-A459FEEE27DF">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>1602E250-20B4-D014-A300-11ECCF39055E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>DC68B718-40FF-F98E-4BE4-04AF8C7C8D87</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEAD78C0-387A-CA3F-FA03-0EC2CFBEC512" name="Restaurantes_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>4DAFA3B2-C876-C7AA-256C-EA677523202D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>AD54481A-23B7-5F4B-4B82-AB5300D91916</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26E23D45-D68F-6E80-5707-7B00E5EC9479"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="579927CA-7CB3-B388-8AA1-7CD85A4B508B" name="Restaurantes_Servicios_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>B94E7DA9-7143-D287-1045-A75A5D62B1B1</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26E23D45-D68F-6E80-5707-7B00E5EC9479"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

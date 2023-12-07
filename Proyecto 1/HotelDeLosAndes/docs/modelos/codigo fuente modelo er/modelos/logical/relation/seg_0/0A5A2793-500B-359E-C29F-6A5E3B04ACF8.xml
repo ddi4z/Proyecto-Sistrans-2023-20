@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MenusBares" directorySegmentName="seg_0" id="0A5A2793-500B-359E-C29F-6A5E3B04ACF8">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-21 04:11:04 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>47509545-A56B-C518-4999-BE5133F35BB4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5C74699-36AA-F199-5D70-08627BED0728</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

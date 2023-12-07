@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE368443-344E-B132-9032-6BF585A6CD68" name="Consumos">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>975BE5B1-7F02-75FB-19C8-E31C9E17A6E2</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E8E62D29-7D6D-26E1-B9FD-FC09F633C856">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>247C7894-E96C-AF8F-33C3-07D6E98A5C17</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="19B49839-13D4-E4F3-7545-230ECE35DA2B">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>C445AFA2-2768-92F4-08C7-29F5F0DB3CA9</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="32042142-4CC9-9C60-49E0-61BFBCC275B6">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>EAF5EB35-3485-50CE-79EE-96ED5EB92E0C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>510</dataTypeSize>
+<ownDataTypeParameters>510,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo" id="047D5512-7198-1343-F380-B6FB42AE9DBC">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>B73C584F-4FD9-B8CD-B89C-6D4C45D757E8</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pagado" id="47CA166C-5526-ABA6-35A6-42846E278036">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>0338A874-0108-CE9F-716D-5E3CCCAAC8FE</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description="False"/>
+<valueDef value="1" description="True"/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="habitacion_id" id="5133FDF5-8409-0A16-EC0E-D9C43520DE25">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>966BB402-AA1D-8390-B852-900412A806F4</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AC8E7D8-00B4-0854-23ED-D1BEA420B23A" referredColumn="57D34E88-65D7-A9D1-7772-6E0C2A3C43F8"/>
+</associations>
+</Column>
+<Column name="servicio_id" id="8287B7F2-8D0C-C966-3904-C49D875C34A6">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>3C8A122F-CB65-8397-074C-BA89A1F4A5E2</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21FAFB17-99D0-6547-FD59-F98178646F6B" referredColumn="26137757-86F8-8D15-2570-6D89A4B2AA4B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7A45EBD-30D0-DA18-4FF0-99321E2869DF" name="Consumos_PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>C63AC4AA-57EB-2B55-DA10-538313C2AF74</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8E62D29-7D6D-26E1-B9FD-FC09F633C856"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BD66425-6E0B-A30E-F17B-61DB8233A62C" name="Consumos_Habitaciones_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>548B7B6E-91A6-5EF8-688C-58170401FC88</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5133FDF5-8409-0A16-EC0E-D9C43520DE25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10C6AE18-D1A5-81A1-E53F-ED5023147238" name="Consumos_Servicios_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>898215FA-8315-676E-B24A-2D2B900A0BAE</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8287B7F2-8D0C-C966-3904-C49D875C34A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

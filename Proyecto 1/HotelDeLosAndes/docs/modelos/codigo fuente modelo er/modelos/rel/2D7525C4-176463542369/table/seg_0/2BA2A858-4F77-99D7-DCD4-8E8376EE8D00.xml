@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BA2A858-4F77-99D7-DCD4-8E8376EE8D00" name="Restaurantes">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>7CCB1E19-9065-7BE6-427C-527CF1AAEEA6</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6BCEB7CF-92DF-1BC8-3BC3-39FCA1CED033">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>E621C048-E83D-CF3E-7397-8CC44AD4E278</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83582BBC-7C3C-14BA-4075-43358F036A51" referredColumn="26137757-86F8-8D15-2570-6D89A4B2AA4B"/>
+</associations>
+</Column>
+<Column name="capacidad" id="77989570-D572-CD9E-C558-EBE5AED5E390">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>771C30E4-233D-4CBE-56B4-90F1C5356AF9</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estilo" id="7BF31381-1B3F-5C08-F734-3D13AEC6511F">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>07741EF0-9F91-BBE3-44DD-5B96FD48A662</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FD319B3-D2A1-31B0-6DC3-67ADA60D01A7" name="Restaurantes_PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>C0865368-8108-8FD8-A131-FDBEB86B9DB0</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BCEB7CF-92DF-1BC8-3BC3-39FCA1CED033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF5EFDB0-A51A-4904-E962-4CCEC69EB5F1" name="Restaurantes_Servicios_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>24B04FE8-D527-FD4B-3BF0-FD46047F1323</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BCEB7CF-92DF-1BC8-3BC3-39FCA1CED033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

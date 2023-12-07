@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F0510C1-A547-781F-B1D4-69346146B4E6" name="TiposHabitacion">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>6CB7627A-6A9C-F1FD-8B4B-90EF117A6945</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>DC69192B-954B-CFDD-2EF4-4612346DCD62</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EFAB1AD2-79F5-9CBA-A27E-2BFF559E5A08">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>3C62191D-1814-B8AE-290D-10261E354D0E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>FF714734-0CB1-0E95-C640-3525B3E4C85B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="317E425C-4526-5174-F880-780B949BF62A">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>BAAD8A88-5606-858E-5FE2-4068893803A9</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>26AA199F-C73D-070C-EFBB-8B7F7F55ED46</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidad" id="71E5592B-A04A-318C-3A34-F85355175A42">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>588414F9-93DD-5ED2-5DF1-3BB2BFA0B59E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>5DB6DE86-0F6E-9DDE-65B4-AF240D5207ED</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo_noche" id="71494455-9E00-4ADF-02A1-446A8118ECC9">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>A2DF5AEB-5309-BDFD-AE4F-BA2614A9656E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>641E3F2E-CC42-3D3A-E18B-EEC61C9973EE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29A2C305-A5D6-01D8-DA68-1E5558E4EF35" name="TiposHabitacion_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>158DA18D-F9A3-6598-4804-C07A7C1298E7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>40FD1436-F4AC-EE6B-D907-ABD49E56A300</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFAB1AD2-79F5-9CBA-A27E-2BFF559E5A08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

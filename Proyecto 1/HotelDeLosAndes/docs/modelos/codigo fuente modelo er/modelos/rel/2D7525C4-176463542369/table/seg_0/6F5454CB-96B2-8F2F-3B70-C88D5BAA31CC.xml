@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F5454CB-96B2-8F2F-3B70-C88D5BAA31CC" name="ServiciosSpaReservasSpa">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<ordsAlias>serviciosspa_reservasspa_fk</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ReservaSpa_id" id="370C8CC7-DEC3-DF37-58D5-6546CDCB2EED">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEFB6B07-E62F-70CF-FA7B-63D6536390C9" referredColumn="9ED9BF95-64AD-3ED4-AED6-B423EB506075"/>
+</associations>
+</Column>
+<Column name="ServicioSpa_id" id="170AAFE2-9CE2-E3DC-6293-F9ACD323EAD2">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C72B844-046F-FA9B-A1B6-14D7CF831F5B" referredColumn="8F5B73B9-6C15-5473-87FE-F562F27A92BC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="861CFFD1-B5DC-F7FF-6BA8-518FC394B025" name="ServiciosSpa_ReservasSpa_FK_PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="370C8CC7-DEC3-DF37-58D5-6546CDCB2EED"/>
+<colUsage columnID="170AAFE2-9CE2-E3DC-6293-F9ACD323EAD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4FF5B28-474D-B3D4-9248-EC5D418AE317" name="ServicioReservaSpa_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>85241B55-959F-25FF-6B07-6A04FA0EC79D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="370C8CC7-DEC3-DF37-58D5-6546CDCB2EED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3DBD7C8-2BC3-7DEA-E8AF-10DE61465540" name="ReservaServicioSpa_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>85241B55-959F-25FF-6B07-6A04FA0EC79D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="170AAFE2-9CE2-E3DC-6293-F9ACD323EAD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fragmento</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+    <div th:fragment="reservaSpaForm(titulo)" class="container border border-2 w-25">
+        <h1 class="text-center" th:text="${titulo}"></h1>
+    <form>
+
+        <label  class="col-form-label">id:</label>
+        <input class="form-control" type="number" id="id" name="id" required th:value="${ReservaSpa.id}" />
+
+        <label  class="col-form-label">horaInicio:</label>
+        <input class="form-control" type="time" id="horaInicio" name="horaInicio" required th:value="${ReservaSpa.horaInicio}" />
+
+        <label  class="col-form-label">horaFin:</label>
+        <input class="form-control" type="time" id="horaFin" name="horaFin" required th:value="${ReservaSpa.horaFin}" />
+
+        <label  class="col-form-label">costo:</label>
+        <input class="form-control" type="number" step="any" id="costo" name="costo" required th:value="${ReservaSpa.costo}" />
+
+        <label  class="col-form-label">idSpa:</label>
+        <input class="form-control" type="number" id="idSpa" name="idSpa" required th:value="${ReservaSpa.spa}" />
+
+        <div class="text-center">
+        <input type="submit" value="Guardar" class="btn btn-primary">
+        <a th:href="@{/cliente/reservasSpa}" class="btn btn-primary">Cancelar</a>
+        </div>
+    </form>
+</br>
+</div>
+
+</body>
+</html>

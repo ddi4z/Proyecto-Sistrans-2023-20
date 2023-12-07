@@ -1,0 +1,88 @@
+// Clientes
+db.clientes.insertOne({
+    "_id": "10050000",
+    "tipoDocumento": "C.C", 
+    "nombre":"Sara", 
+    "correo":"sara@gmail.com"
+})
+db.clientes.insertOne({
+    "_id": "10050000",
+    "tipoDocumento": "C.C.", 
+    "nombre":10050000, 
+    "correo":"sara@gmail.com"
+})
+db.clientes.insertOne({
+    "_id": "10050000",
+    "tipoDocumento": "C.C", 
+    "nombre":"Sara", 
+    "correo":true
+})
+
+// Consumos
+db.consumos.insertOne({
+  "_id": 300000,
+  "fecha": "2022-12-02",
+  "descripcion": "Consumo",
+  "costo": 172541.0,
+  "pagado": true,
+  "cliente": "10000600",
+  "habitacion": 184,
+  "servicio": 11
+})
+
+// Habitaciones
+db.habitaciones.insertOne({
+    "_id": 1000,
+    "ocupada":1, 
+    "tipo":1
+})
+db.habitaciones.insertOne({
+    "_id": 1000,
+    "ocupada":false, 
+    "tipo":"Tipo"
+})
+
+// Prestamos
+db.prestamos.insertOne({
+  "_id": 200000,
+  "utensilio": "Hervidor de agua",
+  "costoPerdida": 509008,
+  "devuelto": false,
+  "cliente": 10003272,
+  "habitacion": 101
+})
+
+// Reservas
+db.reservas.insertOne({
+  "_id": 300000,
+  "noches": 1,
+  "fechaEntrada": "2022-12-02",
+  "fechaSalida": "2022-12-03",
+  "numeroPersonas": 6,
+  "cliente": "10003010",
+  "habitaciones": [
+    76,
+    175
+  ]
+})
+
+// Servicios
+db.servicios.insertOne({
+    "_id": 100,
+    "nombre":"Servicio", 
+    "tipo": "Tipo"
+})
+db.servicios.insertOne({
+    "_id": 100,
+    "nombre":"Servicio Lavandería", 
+    "tipo": "Servicio lavanderia", 
+    "costo":true
+})
+
+// TiposHabitacion
+db.tiposHabitacion.insertOne({
+  "_id": 80,
+  "nombre": "Suite nueva",
+  "capacidad": 10,
+  "costoNoche": 67878,
+}) 

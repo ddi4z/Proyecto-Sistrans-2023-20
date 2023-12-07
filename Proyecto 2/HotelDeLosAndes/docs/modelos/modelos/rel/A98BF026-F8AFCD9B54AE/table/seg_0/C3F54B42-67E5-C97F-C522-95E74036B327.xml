@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3F54B42-67E5-C97F-C522-95E74036B327" name="Fechas">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:44:18 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha" id="4B611B5C-9252-215A-5497-89E36264B75D">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:44:51 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E396C2E2-F5C1-C834-083A-41B871E23883" name="Fechas_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:44:51 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B611B5C-9252-215A-5497-89E36264B75D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Internets</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Mayor ocupacion</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Fecha</th>
+                    <th>habitaciones ocupadas</th>
+                </tr>
+            </thead>
+            <th:block th:each="habitacion : ${Mayor}">
+                <tr>
+                    <td th:text="${habitacion[0]}"></td>
+                    <td th:text="${habitacion[1]}"></td>
+                </tr>
+            </th:block>
+
+        </table>
+        <h1>Mayores consumos</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Fecha</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <th:block th:each="consumo : ${Ingresos}">
+                <tr>
+                    <td th:text="${consumo[0]}"></td>
+                    <td th:text="${consumo[1]}"></td>
+                </tr>
+            </th:block>
+
+        </table>
+
+        <h1>Menor ocupacion</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Fecha</th>
+                    <th>habitaciones ocupadas</th>
+                </tr>
+            </thead>
+            <th:block th:each="habitacion : ${Menor}">
+                <tr>
+                    <td th:text="${habitacion[0]}"></td>
+                    <td th:text="${habitacion[1]}"></td>
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{/gerente}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Establecimientos</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Lista de Establecimientos</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>id</th>
+                    <th>tipo</th>
+                </tr>
+            </thead>
+            <th:block th:each="establecimientoComercio : ${establecimientosComercio}">
+                <tr>
+                    <td th:text="${establecimientoComercio.id}"></td>
+                    <td th:text="${establecimientoComercio.tipo}"></td>
+
+
+                    <td><!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Bar</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+<form th:action="@{'/bares/' + ${id} + '/edit/save'}" th:object="${bar}" method="post">
+    <div th:replace="~{fragments/barForm :: barForm(titulo='Editar bar', bar=${bar})}">
+    </div>
+</form>
+
+</body>
+</html>
+
+                        <a th:href="@{establecimientoComercios/{id}/edit(id=${establecimientoComercio.id})}">Editar</a>
+                        <a th:href="@{establecimientoComercios/{id}/delete(id=${establecimientoComercio.id})}"
+                            onclick="return confirm('¿Estás seguro de borrar este establecimiento?')">Borrar</a>
+                    </td>
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{establecimientosComercio/new}' class="btn btn-primary">Añadir establecimiento</a>
+            <!-- <a th:href='@{sirven/new}' class="btn btn-primary">Añadir Bebida a Bar</a> -->
+            <a th:href='@{/hotel/administrador/servicios}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>

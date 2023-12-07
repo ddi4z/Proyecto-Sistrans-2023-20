@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="B6150E5B-0E81-B76E-421A-D8405A0D54BF" name="ReservasHabitaciones">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>BB34C608-B3B3-65DB-F604-07D5622369AF</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Reserva id" id="8A60658F-BED6-66C7-56EA-697007F9D813">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>9D0064BC-7059-20F2-993E-FF3E859541D5</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<referedAttribute>94901F15-C3BD-3921-6282-25944986650A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Habitacion id" id="9A488916-3229-C2A8-36A0-59873E7ABDC8">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>60450CAB-85A2-C419-74B8-E910ABAF1DD4</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<referedAttribute>98894E34-F590-EB03-7271-2DD13F7C54AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="39BDD70E-3AF0-C8B4-8101-E0B379BBFFE8" name="ReservasHabitaciones PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>140CBECD-E836-5B2E-9D47-D594BB92D1A2</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A60658F-BED6-66C7-56EA-697007F9D813</attributeRef>
+<attributeRef>9A488916-3229-C2A8-36A0-59873E7ABDC8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

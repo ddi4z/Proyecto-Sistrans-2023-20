@@ -1,0 +1,34 @@
+{
+    "$jsonSchema":{
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "utensilio",
+      "costoPerdida",
+      "devuelto",
+      "cliente",
+      "habitacion"
+    ],
+    "properties":{
+      "_id": {
+        "bsonType":"int"
+      },
+        "utensilio":{
+        "bsonType":"string"
+      },
+        "costoPerdida":{
+        "bsonType":"double"
+      },
+      "devuelto":{
+        "bsonType":"bool"
+      },
+      "cliente":{
+        "bsonType":"string"
+      },
+      "habitacion":{
+        "bsonType":"int"
+      }
+    }
+  }
+  }
+  

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Gimnasios_Servicios_FK" directorySegmentName="seg_1" id="B45B34B2-9F05-59CA-E88A-051B980A4EFD">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>F3F09FE3-7B6C-B9E7-DF10-BBD03D2E280A</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<sourcePk>BD2258AB-DB85-0A6C-A252-4E3BB562E4A2</sourcePk>
+<dominantRole>611A7580-EE85-952D-AA36-469151A85C27</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>611A7580-EE85-952D-AA36-469151A85C27</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AFC2B578-186A-0604-754A-E7E6BC90EDB2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

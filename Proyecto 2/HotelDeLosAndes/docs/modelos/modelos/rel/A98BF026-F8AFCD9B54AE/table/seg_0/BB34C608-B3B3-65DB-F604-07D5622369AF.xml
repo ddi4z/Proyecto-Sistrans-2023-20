@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB34C608-B3B3-65DB-F604-07D5622369AF" name="ReservasHabitaciones">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>83921EB0-CD56-352C-5DEE-456C84BDA629</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Reserva_id" id="984E2E5D-5E51-C416-7AB0-EA801E695271">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>552BCD88-D71D-DCB2-8C21-C4BA0D1BCD44</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A202D11-FB5D-EFD7-4532-32AE01FEA021" referredColumn="42CAE189-805A-91BA-CC73-CB50BB35EA3B"/>
+</associations>
+</Column>
+<Column name="Habitacion_id" id="8A9E01F2-2128-D4A1-AD9C-4C34FB4EB1CD">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>000E3702-5886-7D80-6132-CAE80BBF9BBD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BFD3EE7-58EE-D59C-9784-CD954FCFFB3A" referredColumn="61E8BD71-31F7-CEC2-71C2-21DA57E831B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="140CBECD-E836-5B2E-9D47-D594BB92D1A2" name="ReservasHabitaciones_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>594E92BC-3BD9-4EE3-96C0-E74EAEC7F08A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="984E2E5D-5E51-C416-7AB0-EA801E695271"/>
+<colUsage columnID="8A9E01F2-2128-D4A1-AD9C-4C34FB4EB1CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E85FDBEE-368E-A7B5-4A29-B07BC14044AE" name="ReservaHabitacion_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>AC3CC4B5-E702-61CD-AA62-403493DAD902</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A9E01F2-2128-D4A1-AD9C-4C34FB4EB1CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86B1BB02-777A-F928-5038-AC0F610B399F" name="HabitacionReserva_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>AC3CC4B5-E702-61CD-AA62-403493DAD902</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="984E2E5D-5E51-C416-7AB0-EA801E695271"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

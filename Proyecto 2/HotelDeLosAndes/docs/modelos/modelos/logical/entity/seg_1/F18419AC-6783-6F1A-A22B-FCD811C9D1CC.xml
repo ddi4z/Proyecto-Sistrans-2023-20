@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="F18419AC-6783-6F1A-A22B-FCD811C9D1CC" name="ServiciosSpa">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>F1BC6CE2-5572-CA32-DE67-324944016FB6</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B0FE1C76-54C1-4215-D014-598ADFB9D50A">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>A8BFEC97-5DF8-0F30-2A1A-44E3192CA9D8</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="F05BC145-036D-83CE-3191-F395D6423780">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>9C333D3A-9EEF-80EB-7228-625A12FB1AD0</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="E5ED0320-136E-51BD-E6C9-97626354028B">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>A970DE03-D272-7793-C295-7EBCFA00AA2B</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo" id="DFE797D4-C048-7569-A28D-0A35AA2F71F9">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>F3081273-BDC5-6E35-2300-A2CD83A383BD</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23145A0A-9395-9E64-A83F-E99F1B556BBC" name="ServiciosSpa PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:14 UTC</createdTime>
+<generatorID>23217C9B-D1A8-0720-4784-4F8DEB414877</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0FE1C76-54C1-4215-D014-598ADFB9D50A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

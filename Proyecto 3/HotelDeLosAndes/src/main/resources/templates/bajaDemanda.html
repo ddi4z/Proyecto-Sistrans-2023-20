@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de servicios con baja demanda</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Lista de servicios con baja demanda</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Tipo</th>
+                    <th>Promedio</th>
+
+                </tr>
+            </thead>
+            <th:block th:each="consumo : ${BajaDemanda}">
+                <tr>
+                    <td th:text="${consumo[0]}"></td>
+                    <td th:text="${consumo[1]}"></td>
+                    <td th:text="${consumo[2]}"></td>
+                    <td th:text="${consumo[3]}"></td>
+
+
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{/gerente}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>

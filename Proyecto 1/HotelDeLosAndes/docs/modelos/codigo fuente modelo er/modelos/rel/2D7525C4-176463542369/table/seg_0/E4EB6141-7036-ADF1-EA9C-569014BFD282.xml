@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4EB6141-7036-ADF1-EA9C-569014BFD282" name="MenusBares">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Bar_id" id="D36C5EA3-DBB1-D934-D53A-5A97177E2D6D">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C80A47A7-CECB-26C5-AE77-E83486573541" referredColumn="D4BCC8CC-089B-E1B6-2C0C-42BC94C40C90"/>
+</associations>
+</Column>
+<Column name="Producto_id" id="DE7608FB-9A64-9DBE-FB8A-C5870BAE2F0F">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F9F2A3A-5F68-DD04-7981-151B2DE59C1A" referredColumn="7B06604D-FDE6-335E-F595-A4881241E720"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21F759FE-65D8-15A5-A92E-248BB89636C2" name="MenusBares_PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D36C5EA3-DBB1-D934-D53A-5A97177E2D6D"/>
+<colUsage columnID="DE7608FB-9A64-9DBE-FB8A-C5870BAE2F0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34BDB883-0E6B-402C-D2EE-B8122B14F6EA" name="ProductoBar_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>0A5A2793-500B-359E-C29F-6A5E3B04ACF8</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D36C5EA3-DBB1-D934-D53A-5A97177E2D6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66FB75CE-7E32-A37F-067F-F0306CF852C1" name="BarProducto_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>0A5A2793-500B-359E-C29F-6A5E3B04ACF8</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE7608FB-9A64-9DBE-FB8A-C5870BAE2F0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

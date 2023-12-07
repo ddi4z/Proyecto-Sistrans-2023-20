@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reservas de servicio</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="container mx-auto w-25">
+
+    <h1>Reservas de servicio</h1>
+    <img th:src="@{/images/reserva.png}" width="250">
+
+<div>
+    <a th:href="@{/hotel/cliente/reservasSpa}" class="btn btn-primary d-block mb-2">Ver reservas de spa</a>
+    <a th:href="@{/hotel/cliente/reservasSalonConferencia}" class="btn btn-primary d-block mb-2">Ver reservas de salones de conferencia</a>
+    <a th:href="@{/hotel/cliente/reservasSalonReunion}" class="btn btn-primary d-block mb-2">Ver reservas de salones de reunion</a>
+</div>
+    <br/>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3F2153D-43CB-9B1B-0FA8-D9B53AB8D3CE" name="Tienen">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>A6EC8839-C9F4-C0D0-D0C8-263E08758B00</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Gimnasio_id" id="A1638045-B419-0BE1-5367-57DA9EFA91BC">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>787A818F-E9B4-2F62-0F8D-FF2F4C19D7D7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA3AD17C-E658-2497-BD0A-49271B3892F3" referredColumn="164ABFEB-0D38-52B3-D3D8-506BB625D68E"/>
+</associations>
+</Column>
+<Column name="MaquinaGimnasio_id" id="C1365E3E-C3A5-CB03-83C0-DECD6125B5B8">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>11EEED17-361D-D36E-48E4-F0C30152EF09</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10937979-D88B-4122-7FCE-E0A528AB4226" referredColumn="C739B6EE-D155-FE0B-849C-52A219A96117"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="403F02DC-355B-9F30-02C3-C75ED4272F0E" name="Tienen_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>EA10B180-5F55-F422-817C-DE713F1E739F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1365E3E-C3A5-CB03-83C0-DECD6125B5B8"/>
+<colUsage columnID="A1638045-B419-0BE1-5367-57DA9EFA91BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8BA2E56-982B-AFD9-354A-50728ABB7FCD" name="Tienen_MaquinasGimnasio_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>15BB0EF2-AC37-C4D9-0296-3699E0ADBCC3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1365E3E-C3A5-CB03-83C0-DECD6125B5B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B28055E4-B450-0771-1C3B-BCD17A47B7E4" name="Tienen_Gimnasios_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>15BB0EF2-AC37-C4D9-0296-3699E0ADBCC3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1638045-B419-0BE1-5367-57DA9EFA91BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

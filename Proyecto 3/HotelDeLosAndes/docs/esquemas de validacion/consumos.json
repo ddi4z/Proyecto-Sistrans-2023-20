@@ -1,0 +1,41 @@
+{
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": [
+        "_id",
+        "fecha",
+        "descripcion",
+        "costo",
+        "pagado",
+        "cliente",
+        "habitacion",
+        "servicio"
+      ],
+      "properties": {
+        "_id": {
+          "bsonType": "int"
+        },
+        "fecha": {
+          "bsonType": "date"
+        },
+        "descripcion": {
+          "bsonType": "string"
+        },
+        "costo": {
+          "bsonType": "double"
+        },
+        "pagado": {
+          "bsonType": "bool"
+        },
+        "cliente": {
+          "bsonType": "string"
+        },
+        "habitacion": {
+          "bsonType": "int"
+        },
+        "servicio": {
+          "bsonType": "int"
+        }
+      }
+    }
+  }

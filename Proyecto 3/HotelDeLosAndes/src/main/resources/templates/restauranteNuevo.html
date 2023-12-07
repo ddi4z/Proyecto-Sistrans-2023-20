@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Restaurante</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+    </br>
+    <form th:action="@{/consultas/servicios/restaurantes/new/save}" method="post">
+    <div th:replace="~{fragments/restauranteForm :: restauranteForm(titulo='Crear Restaurante')}">
+    </div>
+    </form>
+</body>
+</html>

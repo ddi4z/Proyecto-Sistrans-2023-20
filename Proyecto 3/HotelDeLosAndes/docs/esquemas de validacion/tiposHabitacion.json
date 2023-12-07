@@ -1,0 +1,40 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "nombre",
+      "capacidad",
+      "costoNoche",
+      "elementos"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "int"
+      },
+      "nombre": {
+        "bsonType": "string"
+      },
+      "capacidad": {
+        "bsonType": "int"
+      },
+      "costoNoche": {
+        "bsonType": "double"
+      },
+      "elementos": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "object",
+          "required": [
+            "nombre"
+          ],
+          "properties": {
+            "nombre": {
+              "bsonType": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

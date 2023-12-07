@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="9CE0AEDC-EE0F-1B7B-EE5C-ECFB053D5BC0" name="TiposUsuarios">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>2F970B52-FBE7-CD10-6571-1CDAD29A65B7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="D8484137-4F4E-C930-5B4D-A82EC6667B40">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>EE9B0C93-445D-9BEA-1DDB-A4B6C7CB7E50</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="2F377F2E-5778-5690-2D78-058BC242C9EB">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>160A05AB-5D81-ED08-E928-3E7BE0B7978A</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7265596-008F-FD44-144A-FE7C3AC7DFF3" name="TiposUsuarios PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>00BD2142-14C2-940C-F73D-784744292B32</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D8484137-4F4E-C930-5B4D-A82EC6667B40</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

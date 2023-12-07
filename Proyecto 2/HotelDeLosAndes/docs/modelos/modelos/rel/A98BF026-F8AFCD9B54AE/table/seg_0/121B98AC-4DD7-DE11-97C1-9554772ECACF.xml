@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="121B98AC-4DD7-DE11-97C1-9554772ECACF" name="ServiciosLavanderia">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>CE54AB4B-D48E-A085-BC60-2EB6C5D30D9F</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>00666911-0029-DCCA-A62F-2777E0DDB4D8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="246F3830-67FE-BDCF-3FD6-A5D88508DED1">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>4004A63F-E0C1-327D-1E7D-99F1FFA1C8A3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>73A4E9E6-55B0-DA09-7537-92662C4141AE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04E357D8-8BB3-CF62-85C9-634475177CA6" referredColumn="07FCCB6D-0160-3C2E-3DD0-4C6E6032A989"/>
+</associations>
+</Column>
+<Column name="costo" id="F579B41C-7591-D256-92AC-1415FC94FE58">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>7EDF5554-19DC-165F-AAAD-BBABE8B06ECE</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>D169B0E2-98B4-98B7-766D-470AEC4A8C3C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FD7509B-2ACF-66C8-3D59-275C67690A6B" name="ServiciosLavanderia_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>146EC1B2-6E6D-24B9-E9A7-FEAA73A6ECC1</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>9DBC9B07-C071-15A7-0FC0-3A94EBEF6C61</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="246F3830-67FE-BDCF-3FD6-A5D88508DED1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23EB3C13-10DE-C457-2E47-914BD833AFAA" name="LavanderiaServicio_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>9906B889-4982-93CD-8D37-3B4414D43E8F</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="246F3830-67FE-BDCF-3FD6-A5D88508DED1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

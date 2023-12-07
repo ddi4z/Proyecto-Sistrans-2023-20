@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ReservaReunion FK" directorySegmentName="seg_0" id="9876FAA3-6808-2FFF-276E-D00F48AFCB8C">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 17:32:28 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<sourcePk>EC44BB0D-B406-19E9-DF55-4504F503D235</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>984DF670-CF23-3309-C085-938AB3C61C8B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A44C5DAE-25B1-0A08-2CFA-E77F6CA3B594</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

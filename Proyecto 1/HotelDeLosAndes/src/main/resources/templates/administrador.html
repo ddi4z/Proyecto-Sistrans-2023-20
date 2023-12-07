@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Administrador</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="container mx-auto w-25">
+
+    <h1>Administrador</h1>
+    <img th:src="@{/images/administrador.png}" width="250">
+
+<div>
+    <a th:href="@{/hotel/administrador/tiposUsuario}" class="btn btn-primary d-block mb-2">Ver tipos de usuarios</a>
+    <a th:href="@{/hotel/administrador/usuarios}" class="btn btn-primary d-block mb-2">Ver usuarios</a>
+    <a th:href="@{/hotel/administrador/tiposHabitacion}" class="btn btn-primary d-block mb-2">Ver tipos de habitaciones</a>
+    <a th:href="@{/hotel/administrador/habitaciones}" class="btn btn-primary d-block mb-2">Ver habitaciones</a>
+    <a th:href="@{/hotel/administrador/servicios}" class="btn btn-primary d-block mb-2">Ver servicios</a>
+    <a th:href="@{/hotel/administrador/planesConsumo}" class="btn btn-primary d-block mb-2">Ver planes de consumo</a>
+</div>
+    <br/>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Consumos de un Cliente</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="text-center"></div>
+        <h1>Lista de consumos de un cliente</h1>
+        <br>
+        <h3 th:if="${ConsumosUsuario != null}" th:text="'Cliente: ' + ${ConsumosUsuario.cliente}"></h3>
+        <h3 th:if="${ConsumosUsuario != null}" th:text="'Total consumo: ' + ${ConsumosUsuario.totalConsumido}"></h3>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Fecha</th>
+                    <th>Descripcion</th>
+                    <th>Costo</th>
+                    <th>Pagado</th>
+                    <th>Id de la habitacion</th>
+                    <th>Id del servicio</th>
+                    <th>Id del cliente</th>
+                </tr>
+            </thead>
+            <tbody th:if="${ConsumosUsuario != null}">
+                <th:block th:each="consumo : ${ConsumosUsuario.consumos}">
+                <tr>
+                    <td th:text="${consumo.id}"></td>
+                    <td th:text="${consumo.fecha}"></td> 
+                    <td th:text="${consumo.descripcion}"></td>
+                    <td th:text="${consumo.costo}"></td>
+                    <td th:text="${consumo.pagado  ? 'Sí' : 'No'}"></td>
+                    <td th:text="${consumo.habitacion}"></td>
+                    <td th:text="${consumo.servicio}"></td>
+                    <td th:text="${consumo.cliente}"></td>
+                </tr>
+            </th:block>
+            </tbody>
+            
+
+        </table>
+        <div>
+            <a th:href='@{/requerimientos}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26004091-B762-4427-7C5A-436AF3FC56D9" name="PlanesConsumo">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>7C4DAAED-2F44-3806-D997-34C8107B6223</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>0164FE20-E86C-38D8-4BFA-247694514A85</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="43CF1499-C509-9F25-B703-5B6E825B9830">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>580EFF04-3728-E662-F7F5-F24A4A4F430F</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>7C7D0712-FE98-449C-33C3-E6FEE785BD8D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio_vigencia" id="1B2E0E0B-3457-9928-89A6-35E327B3FA7C">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>C49DE446-5163-3932-3647-469382C9EB5E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>DD00B562-5AC6-0863-24E2-E5E5EACB6C7B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin_vigencia" id="34B4014B-36C6-2E3A-A218-6FD2A8C74793">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>361AC30A-5B03-FF41-0254-372588764978</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>41BD4F06-DD6D-7CA9-EB9C-7FA9935CDB89</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="10F79780-7B40-4EEA-7E25-A57900E1CDD2">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>1E7D698C-1C25-2825-AB23-E84D31E5237B</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>18847FED-333B-3BA5-BBF5-5F920FC367F5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descuento_alojamiento" id="57B5BC58-1001-5D61-1ADD-11B05F2464D8">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>32513830-8E94-F667-4596-CAF86C09A807</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>EA1F38B0-6BE4-8DAD-95DC-8146484F37E0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descuento_bar" id="3E550EEF-7B96-0AC4-3498-442F933DB585">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>49DC6309-EA49-F67A-3EEB-DF66BFD84528</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>83E12BC3-932F-AB4A-BC91-CB2D5BFE5535</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descuento_restaurante" id="4A728845-DB95-8055-7FD3-F24B8B93DBB3">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>28AC9455-76C6-72C5-04EE-51288C9999CD</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>7FE333E6-CADA-0B67-9223-601FA0F4ADCE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descuento_spa" id="E0A991EF-0AEA-86EB-8A59-97DF7B9AB81A">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>16208E06-6530-0149-2F1E-C7535D461FAB</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>2EA1216A-1DD1-C068-5DD0-0E906DC9144D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="3B23FC47-90CF-5BD6-094F-E0FE30420F1D">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>369A75FF-736F-DDA7-7461-198A79ABA0F7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>C503568E-4102-9CCA-28F7-F3E9EC470820</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<listOfValues>
+<valueDef value="LargaEstadia" description=""/>
+<valueDef value="Promocion" description=""/>
+<valueDef value="SinPlan" description=""/>
+<valueDef value="TiempoCompartido" description=""/>
+<valueDef value="TodoIncluido" description=""/>
+</listOfValues>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48E1E35D-91C2-4BF2-053F-681DA82FCF31" name="PlanesConsumo_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>0EA38EF7-9D07-9274-A3C5-D10DA7E2F447</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>B3CFC681-F8CA-2FB4-78F7-11E4C502E905</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43CF1499-C509-9F25-B703-5B6E825B9830"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

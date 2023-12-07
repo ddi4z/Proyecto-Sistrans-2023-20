@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TipoHabitacion FK" directorySegmentName="seg_0" id="0855EF64-57BB-4CCE-E323-CA264ACFF4D3">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 00:56:44 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<sourcePk>2EA8FE60-5E45-3B6D-1DF0-C61427FF5D1C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8417DEEC-2796-A3D2-18E7-875E749FD143</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F64C95A4-4421-3E22-7D2B-6842A4A8C3E9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

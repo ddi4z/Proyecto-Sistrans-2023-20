@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6BF5EBA-349E-0A07-548F-D3C24D23956D" name="ElementosHabitacion">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>06959EA4-C5E2-34F0-D36B-B328592FA391</importedID>
+<ordsAlias>habitacionelementos</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TipoHabitacion_id" id="F79C7499-7BCA-0B72-4D78-ABE502773D8E">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>93A4661D-587E-CE29-227A-096A51D6CDF4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A91303D-1927-1DBC-46AA-77A64D370F72" referredColumn="EFAB1AD2-79F5-9CBA-A27E-2BFF559E5A08"/>
+</associations>
+</Column>
+<Column name="ElementoDotacion_id" id="84085405-1A54-C38C-F18D-9E2E79547E8A">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>3A0564D3-21B4-AAB6-EE94-1D45EB6885B6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4EC495C-3665-3349-AFF9-B020A61A67B1" referredColumn="3A5E8AD8-C766-9045-53D9-18C24182B424"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="125FA13D-3FD2-4C60-E87F-8B76559079CB" name="HabitacionElementos_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>A6A175AA-87B8-CD76-A01A-E5ED4A903BE0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F79C7499-7BCA-0B72-4D78-ABE502773D8E"/>
+<colUsage columnID="84085405-1A54-C38C-F18D-9E2E79547E8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44A5926C-834F-99C8-2DA6-B48DEC16E25F" name="HabitacionElemento_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>8E26D47E-C30C-CA28-6224-7DD4638C47BB</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84085405-1A54-C38C-F18D-9E2E79547E8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E175E6F7-37D9-60C4-7B94-5EA19F9722E7" name="ElementoHabitacion_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>8E26D47E-C30C-CA28-6224-7DD4638C47BB</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F79C7499-7BCA-0B72-4D78-ABE502773D8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

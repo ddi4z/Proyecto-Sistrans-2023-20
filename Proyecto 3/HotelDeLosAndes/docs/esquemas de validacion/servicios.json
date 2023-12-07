@@ -1,0 +1,385 @@
+{
+  "$or": [
+    {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "nombre",
+          "tipo",
+          "capacidad",
+          "estilo",
+          "productos"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "int"
+          },
+          "nombre": {
+            "bsonType": "string"
+          },
+          "tipo": {
+            "enum": [
+              "Bar",
+              "Restaurante"
+            ],
+            "bsonType": "string"
+          },
+          "capacidad": {
+            "bsonType": "int"
+          },
+          "estilo": {
+            "bsonType": "string"
+          },
+          "productos": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "object",
+              "required": [
+                "nombre",
+                "costo"
+              ],
+              "properties": {
+                "nombre": {
+                  "bsonType": "string"
+                },
+                "costo": {
+                  "bsonType": "double"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "nombre",
+          "tipo",
+          "capacidad",
+          "horaInicio",
+          "horaFin",
+          "costoAdicional",
+          "maquinas"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "int"
+          },
+          "nombre": {
+            "bsonType": "string"
+          },
+          "tipo": {
+            "enum": [
+              "Gimnasio"
+            ],
+            "bsonType": "string"
+          },
+          "capacidad": {
+            "bsonType": "int"
+          },
+          "horaInicio": {
+            "bsonType": "string"
+          },
+          "horaFin": {
+            "bsonType": "string"
+          },
+          "costoAdicional": {
+            "bsonType": "double"
+          },
+          "maquinas": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "object",
+              "required": [
+                "nombre"
+              ],
+              "properties": {
+                "nombre": {
+                  "bsonType": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "nombre",
+          "tipo",
+          "capacidad",
+          "serviciosSpa"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "int"
+          },
+          "nombre": {
+            "bsonType": "string"
+          },
+          "tipo": {
+            "enum": [
+              "Spa"
+            ],
+            "bsonType": "string"
+          },
+          "capacidad": {
+            "bsonType": "int"
+          },
+          "serviciosSpa": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "object",
+              "required": [
+                "nombre",
+                "duracionMinutos",
+                "costo"
+              ],
+              "properties": {
+                "nombre": {
+                  "bsonType": "string"
+                },
+                "duracionMinutos": {
+                  "bsonType": "int"
+                },
+                "costo": {
+                  "bsonType": "double"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "nombre",
+          "tipo",
+          "costo"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "int"
+          },
+          "nombre": {
+            "bsonType": "string"
+          },
+          "tipo": {
+            "enum": [
+              "Servicio lavanderia"
+            ],
+            "bsonType": "string"
+          },
+          "costo": {
+            "bsonType": "double"
+          }
+        }
+      }
+    },
+    {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "nombre",
+          "tipo",
+          "capacidad",
+          "costoHora"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "int"
+          },
+          "nombre": {
+            "bsonType": "string"
+          },
+          "tipo": {
+            "enum": [
+              "Salon de conferencia"
+            ],
+            "bsonType": "string"
+          },
+          "capacidad": {
+            "bsonType": "int"
+          },
+          "costoHora": {
+            "bsonType": "double"
+          }
+        }
+      }
+    },
+    {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "nombre",
+          "tipo",
+          "capacidad",
+          "costoHora",
+          "costoEquipos"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "int"
+          },
+          "nombre": {
+            "bsonType": "string"
+          },
+          "tipo": {
+            "enum": [
+              "Salon de reunion"
+            ],
+            "bsonType": "string"
+          },
+          "capacidad": {
+            "bsonType": "int"
+          },
+          "costoHora": {
+            "bsonType": "double"
+          },
+          "costoEquipos": {
+            "bsonType": "double"
+          }
+        }
+      }
+    },
+    {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "nombre",
+          "tipo",
+          "tipoEstablecimiento",
+          "productos"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "int"
+          },
+          "nombre": {
+            "bsonType": "string"
+          },
+          "tipo": {
+            "enum": [
+              "Establecimiento de comercio"
+            ],
+            "bsonType": "string"
+          },
+          "tipoEstablecimiento": {
+            "enum": [
+              "Tienda",
+              "Supermercado"
+            ],
+            "bsonType": "string"
+          },
+          "productos": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "object",
+              "required": [
+                "nombre",
+                "costo"
+              ],
+              "properties": {
+                "nombre": {
+                  "bsonType": "string"
+                },
+                "costo": {
+                  "bsonType": "double"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "nombre",
+          "tipo",
+          "capacidad",
+          "profundidad",
+          "horaInicio",
+          "horaFin",
+          "costoAdicional"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "int"
+          },
+          "nombre": {
+            "bsonType": "string"
+          },
+          "tipo": {
+            "enum": [
+              "Piscina"
+            ],
+            "bsonType": "string"
+          },
+          "capacidad": {
+            "bsonType": "int"
+          },
+          "profundidad": {
+            "bsonType": "int"
+          },
+          "horaInicio": {
+            "bsonType": "string"
+          },
+          "horaFin": {
+            "bsonType": "string"
+          },
+          "costoAdicional": {
+            "bsonType": "double"
+          }
+        }
+      }
+    },
+    {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "nombre",
+          "tipo",
+          "capacidad",
+          "costoDia"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "int"
+          },
+          "nombre": {
+            "bsonType": "string"
+          },
+          "tipo": {
+            "enum": [
+              "Internet"
+            ],
+            "bsonType": "string"
+          },
+          "capacidad": {
+            "bsonType": "int"
+          },
+          "costoDia": {
+            "bsonType": "double"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fragmento</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+    <div th:fragment="barForm(titulo)" class="container border border-2 w-25">
+        <h1 class="text-center" th:text="${titulo}"></h1>
+    <form>
+
+        <label class="col-form-label" >capacidad:</label>
+        <input class="form-control" type="number" id="capacidad" name="capacidad" required th:value="${bar.capacidad}" />
+
+        <label  class="col-form-label">estilo:</label>
+        <input class="form-control" type="text" id="estilo" name="estilo" required th:value="${bar.estilo}" />
+
+        <div class="text-center">
+        <input type="submit" value="Guardar" class="btn btn-primary">
+        <a th:href="@{/bares}" class="btn btn-primary">Cancelar</a>
+        </div>
+    </form>
+</br>
+</div>
+
+</body>
+</html>

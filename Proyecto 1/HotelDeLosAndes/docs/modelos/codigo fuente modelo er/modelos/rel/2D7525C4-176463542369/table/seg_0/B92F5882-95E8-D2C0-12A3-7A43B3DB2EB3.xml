@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B92F5882-95E8-D2C0-12A3-7A43B3DB2EB3" name="MenusRestaurantes">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Restaurante_id" id="CD0D3E75-F0D4-DBDE-5A0D-1A854DDF7B25">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EDC82F2-6AFD-7600-3C31-61288D2AAA05" referredColumn="6BCEB7CF-92DF-1BC8-3BC3-39FCA1CED033"/>
+</associations>
+</Column>
+<Column name="Producto_id" id="53AAC79D-AE79-90AB-D2D5-15765310B917">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80DEF9F5-7301-BC43-13C1-DF43EA826059" referredColumn="7B06604D-FDE6-335E-F595-A4881241E720"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B8873F7-9C2A-6430-35D9-D7DA7F843EF7" name="MenusRestaurantes_PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD0D3E75-F0D4-DBDE-5A0D-1A854DDF7B25"/>
+<colUsage columnID="53AAC79D-AE79-90AB-D2D5-15765310B917"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C050721-268F-69A2-2A6F-70D9A6FB1FB0" name="ProductoRestaurante_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>E5F0C45D-735A-CF0B-4D7D-410C5BD53F40</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD0D3E75-F0D4-DBDE-5A0D-1A854DDF7B25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5F53CF4-108B-776A-9751-53A684539038" name="RestauranteProducto_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>E5F0C45D-735A-CF0B-4D7D-410C5BD53F40</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53AAC79D-AE79-90AB-D2D5-15765310B917"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fragmento</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+
+    </br>
+    <div th:fragment="usuarioForm(titulo)" class="container border border-2 w-25">
+        <h1 class="text-center" th:text="${titulo}"></h1>
+    <form>
+
+        <label class="col-form-label" for="tipo">Tipo Documento:</label>
+        <select class="form-control" id="tipo" name="tipoDocumento" required>
+            <option value="C.C." th:selected="${Usuario.tipoDocumento eq 'C.C.'}">C.C.</option>
+            <option value="C.E." th:selected="${Usuario.tipoDocumento eq 'C.E.'}">C.E.</option>
+        </select>
+        <label class="col-form-label" >Numero:</label>
+        <input class="form-control" type="text" id="numero" name="numDocumento" required th:value="${Usuario.numDocumento}" />
+
+        <label class="col-form-label" >Nombre:</label>
+        <input class="form-control" type="text" id="nombre" name="nombre" required th:value="${Usuario.nombre}" />
+
+        
+        <label class="col-form-label" >Correo:</label>
+        <input class="form-control" type="text" id="correo" name="correo" required th:value="${Usuario.correo}" />
+
+        <label class="col-form-label" for="tipo">Rol:</label>
+        <select class="form-control" id="tipo" name="rol" required>
+            <th:block th:each="tipo : ${Tipos}" >
+                <option th:value="${tipo.id}" th:text="${tipo.nombre}" th:selected="${Usuario != null and Usuario.rol != null and Usuario.rol.id eq tipo.id}"></option>
+            </th:block>
+        </select><br>
+
+
+        <div class="text-center">
+            <input type="submit" value="Guardar" class="btn btn-primary">
+            <a th:href="@{/administrador/usuarios}" class="btn btn-primary">Cancelar</a>
+        </div>
+    </form>
+
+    </br>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C275AF16-7EC7-D031-8072-38799219DAEF" name="Tienen">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Gimnasio_id" id="A789B95B-18E8-DFF3-8E4E-1A8D0920BFD8">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6767AD80-B6C2-34C0-8737-61A0024EFCB0" referredColumn="25970FFD-7A61-D097-EC0F-E9A85F8BA604"/>
+</associations>
+</Column>
+<Column name="MaquinaGimnasio_id" id="1DECF7D9-7F8F-4AF7-D53C-1F164A2FC3A0">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BCD8733-DE44-3BE4-3994-7CD3E5B45199" referredColumn="BAEDEF96-1100-C561-3E12-4D3D8797276D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2772C050-0C18-519F-451B-36BB067BF5BF" name="Tienen_PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DECF7D9-7F8F-4AF7-D53C-1F164A2FC3A0"/>
+<colUsage columnID="A789B95B-18E8-DFF3-8E4E-1A8D0920BFD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B48719F0-530A-5960-644D-1D52FDBCC4F7" name="Tienen_MaquinasGimnasio_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>DF4F645A-5371-4557-1D48-2E33C0D724D7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DECF7D9-7F8F-4AF7-D53C-1F164A2FC3A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68934836-9E05-1AEA-1203-93FC385BB597" name="Tienen_Gimnasios_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>DF4F645A-5371-4557-1D48-2E33C0D724D7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A789B95B-18E8-DFF3-8E4E-1A8D0920BFD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

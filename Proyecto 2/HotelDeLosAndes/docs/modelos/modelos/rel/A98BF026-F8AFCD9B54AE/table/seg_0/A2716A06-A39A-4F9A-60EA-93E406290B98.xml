@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2716A06-A39A-4F9A-60EA-93E406290B98" name="Spas">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>B926EFD9-A1DE-FDBD-B3EF-C70A389764F0</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>DBB74E51-F67D-78A7-A916-FDFAFD9A2263</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A38B5485-6B15-1752-F178-E982E83A6578">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>44A393F5-EA8D-C4FC-6DB7-EAD94FFDCDBA</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>6DA22614-33FE-BE61-B46B-7BD7FBA46120</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33FAF931-FC4D-EF39-85A3-06735B3C1450" referredColumn="07FCCB6D-0160-3C2E-3DD0-4C6E6032A989"/>
+</associations>
+</Column>
+<Column name="capacidad" id="2A63E907-5962-4489-4F68-D7859F0A6B0F">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>C120B5B9-8C70-4AD1-406F-ED92838DA848</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>56E5CB49-9532-A142-89D3-5705AED4E9F8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6626661A-5D6B-3D16-3C84-6D0B8D465571" name="Spas_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>5E6AA2EE-33DC-A456-5967-8288FAED94C3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>98D32E18-2B58-6ACC-C40C-9DA3EA66E578</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A38B5485-6B15-1752-F178-E982E83A6578"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68A5C79E-0856-30B5-20CE-3EE63023BCC1" name="Spas_Servicios_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>91B54835-1EF4-ED0C-CD6A-6E1729F28E85</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A38B5485-6B15-1752-F178-E982E83A6578"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

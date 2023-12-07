@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fragmento</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+    <div th:fragment="consumoForm(titulo)" class="container border border-2 w-25">
+        <h1 class="text-center" th:text="${titulo}"></h1>
+    <form>
+
+        <label class="col-form-label" >fecha:</label>
+        <input class="form-control" type="date" id="fecha" name="fecha" required th:value="${Consumo.fecha}" />
+
+        <label  class="col-form-label">descripcion:</label>
+        <input class="form-control" type="text" id="descripcion" name="descripcion" required th:value="${Consumo.descripcion}" />
+
+        <label class="col-form-label" >costo:</label>
+        <input class="form-control" type="number" id="costo" name="costo" required th:value="${Consumo.costo}" />
+
+        <label  class="col-form-label">pagado:</label>
+        <input class="form-control" type="checkbox" id="pagado" name="pagado" required th:value="${Consumo.pagado}" />
+
+
+        <label class="col-form-label" for="tipo">id habitacion:</label>
+        <select class="form-control" id="tipo" name="tipo" required>
+            <th:block th:each="tipo : ${habitaciones}" >
+                <option th:value="${tipo.id}" th:text="${tipo.id}" th:selected="${Consumo!=null || Consumo.habitacion.id == Consumo.id}"></option>
+            </th:block>
+        </select><br>
+
+        
+        <label class="col-form-label" for="tipo">id servicio:</label>
+        <select class="form-control" id="tipo" name="tipo" required>
+            <th:block th:each="tipo : ${servicios}" >
+                <option th:value="${tipo.id}" th:text="${tipo.id}" th:selected="${Consumo!=null || Consumo.servicio.id == Consumo.id}"></option>
+            </th:block>
+        </select><br>
+
+        <div class="text-center">
+            <input type="submit" value="Guardar" class="btn btn-primary">
+            <a th:href="@{/empleado/consumos}" class="btn btn-primary">Cancelar</a>
+        </div>
+    </form>
+</br>
+</div>
+
+</body>
+</html>
+

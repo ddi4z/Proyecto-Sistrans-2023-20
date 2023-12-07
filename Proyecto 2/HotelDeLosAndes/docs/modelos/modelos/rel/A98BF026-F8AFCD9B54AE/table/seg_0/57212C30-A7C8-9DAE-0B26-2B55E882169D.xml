@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57212C30-A7C8-9DAE-0B26-2B55E882169D" name="ReservasSalonReunion">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>DA2BE410-B78B-D9D0-D325-FBEB32585CD6</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>08D0418F-E431-5951-AB44-08F87B3A8F67</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="974B066C-E245-8038-29D4-14EDB3903845">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>8F4714C0-B9D9-2756-A228-A53C39A2A2AA</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>61BC7679-6E16-513A-BF3A-61EE783F1B7B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_inicio" id="003057C1-66B1-5D72-1174-FBC6D88267D0">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>B0A9D1D2-9BB8-A8C3-4699-4A33E6D295CE</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>C89EE970-27E5-8340-2E26-25B784BB8767</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracion" id="3B387DD2-DF71-D595-C81C-176BE243273D">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>A7BDC5B3-D010-53E8-A745-4A427EF159D9</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>1414FE7B-A3E0-8BD4-A1C4-F3E0CC76F43F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo" id="A2C72814-EDA6-2698-62B8-18936C390983">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>66F72005-84B1-DD01-B6EE-9EC65B145BDF</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>03D64E0E-B3C9-44BB-62F1-09D233335A7B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_fin_limpieza" id="AB075DAE-EDB9-173F-5CFE-45936B87F653">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>6CB6D503-90CB-0A77-FAC4-A5FFDB11BCBF</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>8AF83671-073C-3D70-04A7-5DFA987C69B2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_salon" id="3D5692C9-338E-1BF1-5533-78E2007FB798">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>2BE85495-0DCE-EAD7-BDEC-DA81D2804240</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>722710B3-9259-43F8-2922-A6B181870599</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B0EB530-7C15-E095-398C-E29F243E0DCE" referredColumn="C99983E5-AD6A-E5A8-C57C-D5F12DC9C916"/>
+</associations>
+</Column>
+<Column name="num_documento" id="FCC77201-0C0A-C3D8-5078-609D179F4B2E">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>80703E4A-2F42-9FE4-04B9-EDAF4C844D68</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68BE52DA-E6B9-CC90-145F-494EF8275816" referredColumn="B2528156-FC8F-D5CD-532B-0C6670C03217"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FB6F72B-C39B-22EF-62D6-9BCD52949FBF" name="ReservasSalonReunion_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>6FF2C5F7-A214-1586-6945-1547D0E82AAE</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>990D5EAA-83F0-FBB1-55D8-9666389788AF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="974B066C-E245-8038-29D4-14EDB3903845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E819E671-CD62-D15E-97A0-B28A121D766E" name="ReservaReunion_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>5E44F2AF-03D8-3F12-6A4E-886794A813B8</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D5692C9-338E-1BF1-5533-78E2007FB798"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B8FAD11-4FA3-8A8C-77C5-19419689446E" name="ReservasReunion_Usuarios_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>404A9B73-7673-FB67-AF3E-E9A3DF26AE80</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCC77201-0C0A-C3D8-5078-609D179F4B2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

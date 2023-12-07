@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Salon de conferencia</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+    </br>
+    <form th:action="@{/salonesConferencia/new/save}" method="post">
+    <div th:replace="~{fragments/salonConferenciaForm :: salonConferenciaForm(titulo='Crear salonConferencia')}">
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Establecimiento de comercio</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+    </br>
+    <form th:action="@{/consultas/servicios/establecimientosComercio/new/save}" method="post">
+    <div th:replace="~{fragments/establecimientoComercioForm :: establecimientoComercioForm(titulo='Crear Establecimiento de Comercio')}">
+    </div>
+    </form>
+</body>
+</html>

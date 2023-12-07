@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Servicios por características</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Consulta de Servicios por Características</h1>
+
+        <form action="/hotel/gerente/serviciosCaracteristicas" method="post">
+            <div class="form-group">
+                <label for="precio1">Precio inferior:</label>
+                <input type="text" class="form-control" id="precio1" name="precio1" />
+            </div>
+
+            <div class="form-group">
+                <label for="precio2">Precio superior:</label>
+                <input type="text" class="form-control" id="precio2" name="precio2" />
+            </div>
+
+            <div class="form-group">
+                <label for="fecha1">Fecha de inicio:</label>
+                <input type="date" class="form-control" id="fecha1" name="fecha1" />
+            </div>
+
+            <div class="form-group">
+                <label for="fecha2">Fecha de fin:</label>
+                <input type="date" class="form-control" id="fecha2" name="fecha2" />
+            </div>
+
+            <div class="form-group">
+                <label for="tipo">Tipo:</label>
+                <select class="form-control" id="tipo" name="tipo" required>
+                    <th:block th:each="tipo : ${Tipos}">
+                        <option th:value="${tipo}" th:text="${tipo}" ></option>
+                    </th:block>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="empleado">Empleado:</label>
+                <input type="text" class="form-control" id="empleado" name="empleado" />
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Consultar</button>
+                <a th:href="@{/gerente}" class="btn btn-secondary">Volver atrás</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

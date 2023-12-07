@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Funcionamiento del hotel</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+        <h1>Funcionamiento del hotel</h1>
+        <h2>Servicios mas consumidos</h2>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Semana</th>
+                    <th>Conteo</th>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Tipo</th>
+                </tr>
+            </thead>
+            <th:block th:each="servicio : ${MasConsumidos}">
+                <tr>
+                    <td th:text="${servicio[0]}"></td> 
+                    <td th:text="${servicio[1]}"></td> 
+                    <td th:text="${servicio[2]}"></td>  
+                    <td th:text="${servicio[3]}"></td>  
+                    <td th:text="${servicio[4]}"></td>  
+                </tr>
+            </th:block>
+
+        </table>
+        <h2>Servicios menos consumidos</h2>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Semana</th>
+                    <th>Conteo</th>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Tipo</th>
+                </tr>
+            </thead>
+            <th:block th:each="servicio : ${MenosConsumidos}">
+                <tr>
+                    <td th:text="${servicio[0]}"></td> 
+                    <td th:text="${servicio[1]}"></td> 
+                    <td th:text="${servicio[2]}"></td>  
+                    <td th:text="${servicio[3]}"></td>  
+                    <td th:text="${servicio[4]}"></td>  
+                </tr>
+            </th:block>
+
+        </table>
+        <h2>Habitaciones mas solicitadas</h2>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Semana</th>
+                    <th>Conteo</th>
+                    <th>Id</th>
+                    <th>Tipo</th>
+                </tr>
+            </thead>
+            <th:block th:each="habitacion : ${MasSolicitadas}">
+                <tr>
+                    <td th:text="${habitacion[0]}"></td>
+                    <td th:text="${habitacion[1]}"></td>
+                    <td th:text="${habitacion[2]}"></td>
+                    <td th:text="${habitacion[3]}"></td>
+
+                </tr>
+            </th:block>
+
+        </table>
+        <h2>Habitaciones menos solicitadas</h2>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Semana</th>
+                    <th>Conteo</th>
+                    <th>Id</th>
+                    <th>Tipo</th>
+                </tr>
+            </thead>
+            <th:block th:each="habitacion : ${MenosSolicitadas}">
+                <tr>
+                    <td th:text="${habitacion[0]}"></td>
+                    <td th:text="${habitacion[1]}"></td>
+                    <td th:text="${habitacion[2]}"></td>
+                    <td th:text="${habitacion[3]}"></td>
+                </tr>
+            </th:block>
+
+        </table>
+        <div>       
+            <a th:href='@{/gerente}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>

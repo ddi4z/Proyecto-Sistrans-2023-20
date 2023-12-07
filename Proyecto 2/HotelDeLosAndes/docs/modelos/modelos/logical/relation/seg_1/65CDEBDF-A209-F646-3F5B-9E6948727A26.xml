@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ReunionServicio_FK" directorySegmentName="seg_1" id="65CDEBDF-A209-F646-3F5B-9E6948727A26">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>B198742D-DF42-208E-3236-758D33735504</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<sourcePk>BD2258AB-DB85-0A6C-A252-4E3BB562E4A2</sourcePk>
+<dominantRole>611A7580-EE85-952D-AA36-469151A85C27</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>611A7580-EE85-952D-AA36-469151A85C27</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>421A0BBE-0766-0B5E-AADB-2BB2B3943D12</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

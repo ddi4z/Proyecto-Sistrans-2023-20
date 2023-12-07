@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Usuario</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+    </br>
+    <form th:action="@{/usuarios/new/save}" method="post">
+    <div th:replace="~{fragments/usuarioForm :: usuarioForm(titulo='Crear usuario')}">
+    </div>
+    </form>
+</body>
+</html>

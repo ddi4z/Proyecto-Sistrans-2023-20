@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <title>Consumos de un Servicio</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="text-center"></div>
+        <h1>Clientes que consumieron un servicio</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Tipo Documento</th>
+                    <th>Documento</th>
+                    <th>Correo</th>
+                    <th>Fecha Consumo</th>
+                    <th>Tipo Servicio</th>
+                    <th>Pagado</th>
+                </tr>
+            </thead>
+            <tbody th:if="${ConsumosServicio != null}">
+                <th:block th:each="informeConsumosServicio : ${ConsumosServicio}">
+                <tr>
+                    <td th:text="${informeConsumosServicio.cliente.nombre}"></td>
+                    <td th:text="${informeConsumosServicio.cliente.tipoDocumento}"></td>
+                    <td th:text="${informeConsumosServicio.cliente.id}"></td>
+                    <td th:text="${informeConsumosServicio.cliente.correo}"></td>
+                    <td th:text="${informeConsumosServicio.fecha}"></td>
+                    <td th:text="${informeConsumosServicio.servicio.tipo}"></td>
+                    <td th:text="${informeConsumosServicio.pagado  ? 'Sí' : 'No'}"></td>
+                </tr>
+            </th:block>
+            </tbody>
+            
+
+        </table>
+        <div>
+            <a th:href='@{/requerimientos}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+    </div>
+</body>
+</html>

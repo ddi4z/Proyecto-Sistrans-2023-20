@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Consumos Habitaciones FK" directorySegmentName="seg_0" id="548B7B6E-91A6-5EF8-688C-58170401FC88">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-21 04:16:25 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<sourcePk>D91C1E1B-88AF-4DBF-F79F-441E38DA6EB1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F64C95A4-4421-3E22-7D2B-6842A4A8C3E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>975BE5B1-7F02-75FB-19C8-E31C9E17A6E2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

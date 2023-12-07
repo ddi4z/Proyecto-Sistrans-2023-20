@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F970B52-FBE7-CD10-6571-1CDAD29A65B7" name="TiposUsuarios">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>70ACEE49-56B1-6F77-88AF-3CFC0D1D9EB4</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>553A7464-0032-F348-29DE-C43E70765F19</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EE9B0C93-445D-9BEA-1DDB-A4B6C7CB7E50">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>EDB64F2D-A1F9-1486-B4C0-BF70BD4FB9AA</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>075AD687-2B9E-EE8C-605D-9EFA83B91EA8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="160A05AB-5D81-ED08-E928-3E7BE0B7978A">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>DBC0A1C9-05A6-0A43-EAE1-6DB76CA7C778</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>D6BEA99C-362D-4A7E-ABCC-07D05CD1A99D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00BD2142-14C2-940C-F73D-784744292B32" name="TiposUsuarios_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>0E9552FA-600B-1304-8E51-7D9F6C27E8C4</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>64F01721-C196-BDB0-BF86-4D4F6189A257</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE9B0C93-445D-9BEA-1DDB-A4B6C7CB7E50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

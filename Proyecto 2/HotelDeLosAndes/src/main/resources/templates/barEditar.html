@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Bar</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+<form th:action="@{'/administrador/servicios/bares/' + ${id} + '/edit/save'}" th:object="${bar}" method="post">
+    <div th:replace="~{fragments/barForm :: barForm(titulo='Editar Bar', bar=${bar})}">
+    </div>
+</form>
+
+</body>
+</html>

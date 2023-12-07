@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reservas PlanesConsumo FK" directorySegmentName="seg_0" id="3D49884A-7464-69A1-3B52-5BA90826EBA1">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 14:09:50 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<sourcePk>9459D574-CA31-BB1D-091A-5394561748A4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EE56944D-B355-E699-D813-56254B01C93D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D119AEFE-16F4-AE8D-0DB5-D42BE0BC5499</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC9BD254-3DE1-1EAA-51BC-E1EA89E8EB3C" name="Gimnasios">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>90955AB0-A8A2-27C2-772F-6420AE4DB218</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>6C1FE51C-97F4-3973-10D0-5E0123D792F0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="164ABFEB-0D38-52B3-D3D8-506BB625D68E">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>26B8E33C-097E-5AD8-D367-753397BB1007</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>B7FA5131-4944-771D-55D4-7575C9B226E3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3F09FE3-7B6C-B9E7-DF10-BBD03D2E280A" referredColumn="07FCCB6D-0160-3C2E-3DD0-4C6E6032A989"/>
+</associations>
+</Column>
+<Column name="capacidad" id="E74070BF-BC1D-C916-0489-C152822AB300">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>606CBF80-E13C-5114-6D7F-68695B59069E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>308C6513-20FA-E8EF-51A6-91250FCB0AA8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_inicio" id="F2A85012-3B69-B1A8-20A2-E0C6796B224C">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>23F7DE7C-4696-0927-3A78-C4F424538888</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>3FDE488E-EEBE-CD02-85C1-57605E26A149</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_fin" id="7C90BE25-EDD3-AC73-D2CC-47D126558ADF">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>C5B77B3A-EA2B-03EC-E427-8EA8041068A8</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>825DD6DC-18BA-38F5-610D-6AECC4703228</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo_adicional" id="303BBECD-E6CE-936C-BE2F-FC1981F9288E">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>8E4B0F70-30B2-BA44-C5D4-BA729E78950C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>55FE98F5-BFDB-329D-A07E-8F517C6C4043</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97B960B5-66F6-62B3-B91A-1216F3D10A9D" name="Gimnasios_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>3D3CA601-9747-A696-C561-45FC33DA7A06</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>0C2345F8-7E1B-3414-CCFB-5DD0ABB4A8D2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="164ABFEB-0D38-52B3-D3D8-506BB625D68E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37385BA5-4045-CAE3-41AC-3C603D8DC637" name="Gimnasios_Servicios_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>B7169D59-FD48-09BE-CA4D-B343E1245773</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="164ABFEB-0D38-52B3-D3D8-506BB625D68E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

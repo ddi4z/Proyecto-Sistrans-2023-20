@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Llegadas y salidas</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Llegadas y salidas</h1>
+    <div>
+        <a th:href='@{/consultas}' class="btn btn-primary">Volver Atrás</a>
+    </div>
+    <br />
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Fecha entrada</th>
+                    <th>Fecha salida</th>
+                    <th>Noches</th>
+                    <th>Numero personas</th>
+                    <th>Check In</th>
+                    <th>Check Out</th>
+                    <th>Numero documento</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <th:block th:each="reserva : ${Reservas}">
+                <tr>
+                    <td th:text="${reserva.id}"></td>
+                    <td th:text="${reserva.fechaEntrada}"></td>
+                    <td th:text="${reserva.fechaSalida}"></td>
+                    <td th:text="${reserva.noches}"></td>
+                    <td th:text="${reserva.numeroPersonas}"></td>
+                    <td th:text="${reserva.checkIn}"></td>
+                    <td th:text="${reserva.checkOut}"></td>
+
+
+                    <td th:text="${reserva.cliente}"></td>
+                    <td>
+                        <a th:href="@{llegadas/{id}/editCheckIn(id=${reserva.id})}">CheckIn</a>
+                        <a th:href="@{llegadas/{id}/editCheckOut(id=${reserva.id})}">CheckOut</a>
+                    </td>
+                </tr>
+            </th:block>
+
+        </table>
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84CD6D5D-7A53-74AD-C684-D2EA7F2F6409" name="ReservasFechas">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:45:27 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha" id="1392A745-1589-4BCD-75A5-2CFD1FF31644">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:50:05 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D5A18A2-4E6E-73E1-00EF-323DF4BA7619" referredColumn="4B611B5C-9252-215A-5497-89E36264B75D"/>
+</associations>
+</Column>
+<Column name="reserva_id" id="96EB6304-4403-F83C-A1AB-80C9A20C9DFB">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:56:40 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64A16DD2-EE31-9309-7690-5F1107656C41" referredColumn="42CAE189-805A-91BA-CC73-CB50BB35EA3B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="349A16F1-822B-B255-52CC-329F0B0AA922" name="ReservasFechas_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:50:05 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1392A745-1589-4BCD-75A5-2CFD1FF31644"/>
+<colUsage columnID="96EB6304-4403-F83C-A1AB-80C9A20C9DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F4419AE-76B7-59C5-15BE-BA8DD1BE21D8" name="ReservasFechas_Reservas_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:57:21 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96EB6304-4403-F83C-A1AB-80C9A20C9DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE41F10F-7C9D-0C2D-D415-27945762EFA9" name="ReservasFechas_Fechas_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:57:56 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1392A745-1589-4BCD-75A5-2CFD1FF31644"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

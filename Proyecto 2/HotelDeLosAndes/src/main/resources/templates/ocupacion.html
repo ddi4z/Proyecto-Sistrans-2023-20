@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de habitaciones con ocupacion</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>    
+    <h1>Lista de habitaciones con ocupacion</h1>
+    <table class="table table-hover table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>Tipo</th>
+                <th>Cantidad dias ocupada</th>
+                <th>Porcentaje ocupada</th>
+            </tr>
+        </thead>
+        <th:block th:each="habitacion : ${Ocupacion}">
+            <tr>
+                <td th:text="${habitacion[0]}"></td>
+                <td th:text="${habitacion[1]}"></td>
+                <td th:text="${habitacion[2] == null ? 0 : habitacion[2]}"></td>
+                <td th:text="${habitacion[3] == null ? 0 : habitacion[3]}"></td>
+            </tr>
+        </th:block>
+
+    </table>
+    <div class="container mx-auto w-25">
+        <a th:href='@{/gerente}' class="btn btn-primary">Volver Atrás</a>
+        <br/>
+    </div>
+</body>
+</html>

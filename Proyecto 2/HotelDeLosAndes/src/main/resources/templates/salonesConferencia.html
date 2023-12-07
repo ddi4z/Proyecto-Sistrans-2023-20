@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Salones de conferencia</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Lista de Salones de conferencia</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Capacidad</th>
+                    <th>Costo hora</th>
+                    <th>Acciones</th>
+
+                </tr>
+            </thead>
+            <th:block th:each="salonConferencia : ${SalonesConferencia}">
+                <tr>
+                    <td th:text="${salonConferencia.id}"></td>
+                    <td th:text="${salonConferencia.capacidad}"></td>
+                    <td th:text="${salonConferencia.costoHora}"></td>
+
+                    <td>
+                        <a th:href="@{salonesConferencia/{id}/edit(id=${salonConferencia.id})}">Editar</a>
+                        <a th:href="@{salonesConferencia/{id}/delete(id=${salonConferencia.id})}"
+                            onclick="return confirm('¿Estás seguro de borrar este salon de conferencia?')">Borrar</a>
+                    </td>
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{salonesConferencia/new}' class="btn btn-primary">Añadir salon de conferencia</a>
+            <!-- <a th:href='@{sirven/new}' class="btn btn-primary">Añadir Bebida a Bar</a> -->
+            <a th:href='@{/administrador/servicios}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>

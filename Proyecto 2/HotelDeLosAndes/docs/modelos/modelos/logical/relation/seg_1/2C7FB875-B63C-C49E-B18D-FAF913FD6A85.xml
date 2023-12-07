@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ServicioReservaSpa_FK" directorySegmentName="seg_1" id="2C7FB875-B63C-C49E-B18D-FAF913FD6A85">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>5313073B-94B5-F09A-DF1C-E13141A89243</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<sourcePk>4DD117D2-5CB9-1869-EDDE-6C39FBE45F1F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>569E1B18-547A-3E4A-3791-C150AB202F56</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8AABA66D-F50B-8D18-9506-F34E2D52798F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ReservasFechas_Fechas_FK" directorySegmentName="seg_1" id="DE65C52F-8D8F-8E91-54E7-721DB28835F1">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>3D5A18A2-4E6E-73E1-00EF-323DF4BA7619</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<sourcePk>2C797689-2C25-834F-9B2F-9257C64D7E15</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2F27FEAF-D57A-809A-6C2C-08D8EC2DAB54</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>50A3B472-0F84-3FA3-4998-38F16710A65F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

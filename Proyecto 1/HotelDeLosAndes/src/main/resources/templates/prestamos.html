@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Prestamos</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Lista de Prestamos</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>id</th>
+                    <th>utensilio</th>
+                    <th>costo perdida</th>
+                    <th>devuelto</th>
+                </tr>
+            </thead>
+            <th:block th:each="prestamo : ${prestamos}">
+                <tr>
+                    <td th:text="${prestamo.id}"></td>
+                    <td th:text="${prestamo.utensilio}"></td>
+                    <td th:text="${prestamo.costoPerdida}"></td>
+                    <td th:text="${prestamo.devuelto}"></td>
+
+                    <td>
+                        <a th:href="@{prestamos/{id}/edit(id=${prestamo.id})}">Editar</a>
+                        <a th:href="@{prestamos/{id}/delete(id=${prestamo.id})}"
+                            onclick="return confirm('¿Estás seguro de borrar este prestamo?')">Borrar</a>
+                    </td>
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{prestamos/new}' class="btn btn-primary">Añadir prestamo</a>
+            <!-- <a th:href='@{sirven/new}' class="btn btn-primary">Añadir Bebida a Bar</a> -->
+            <a th:href='@{/hotel/administrador/servicios}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tienen" directorySegmentName="seg_0" id="DF4F645A-5371-4557-1D48-2E33C0D724D7">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 13:15:18 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>83691844-25CE-BB1B-FC16-99A2FF84FA24</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>041D10E2-7F40-1C1C-EC24-5BFA9E7E8E3E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

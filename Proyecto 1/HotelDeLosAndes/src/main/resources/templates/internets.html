@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Internets</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Lista de Internets</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>id</th>
+                    <th>capacidad</th>
+                    <th>costo dia</th>
+                </tr>
+            </thead>
+            <th:block th:each="internet : ${internets}">
+                <tr>
+                    <td th:text="${internet.id}"></td>
+                    <td th:text="${internet.capacidad}"></td>
+                    <td th:text="${internet.costo_dia}"></td>
+
+                    <td>
+                        <a th:href="@{internets/{id}/edit(id=${internet.id})}">Editar</a>
+                        <a th:href="@{internets/{id}/delete(id=${internet.id})}"
+                            onclick="return confirm('¿Estás seguro de borrar este internet?')">Borrar</a>
+                    </td>
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{internets/new}' class="btn btn-primary">Añadir internet</a>
+            <!-- <a th:href='@{sirven/new}' class="btn btn-primary">Añadir Bebida a Bar</a> -->
+            <a th:href='@{/hotel/administrador/servicios}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>

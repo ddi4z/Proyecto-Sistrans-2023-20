@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="03E9C771-953D-6B11-4A8A-820A4E5D44CC" containerWithKeyObject="37D69A09-F4FE-4BB5-1FAB-F7D2A8A61300" localFKIndex="197E8347-3581-14F4-6196-62DCBD700D00" name="ReservaReunion_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>9876FAA3-6808-2FFF-276E-D00F48AFCB8C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<referredTableLongName>SalonesReunion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EE9A8957-CA58-9E10-81B9-6EC579A260AF</referredTableID>
+<keyObject>1B59CCE0-25C2-A27D-5521-F95FF040B868</keyObject>
+<referredKeyID>1B59CCE0-25C2-A27D-5521-F95FF040B868</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

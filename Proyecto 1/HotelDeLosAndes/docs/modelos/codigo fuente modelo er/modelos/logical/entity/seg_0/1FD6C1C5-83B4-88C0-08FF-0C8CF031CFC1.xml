@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FD6C1C5-83B4-88C0-08FF-0C8CF031CFC1" name="Usuarios">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-21 04:08:50 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo documento" id="EDC92B82-0E57-6C76-C87C-EB6B640983CD">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-21 04:23:48 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num documento" id="26C54AF9-D7C8-741A-5A81-BA752C4B3698">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-21 04:23:53 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="448A8D2A-9936-8A99-5411-8100C31844EF">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-21 04:23:57 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="6E91DEF5-FC66-897B-A40F-871C7E094395">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-21 04:23:59 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol" id="D5E8B5D5-EFC5-980F-431F-0C539708D0B8">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 01:28:41 UTC</createdTime>
+<generatorID>3059D03E-0D3C-8542-7064-FC22FDC0C844</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<referedAttribute>7B030E06-A496-1F70-4BF1-8E11AAAA49D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="404A9B73-7673-FB67-AF3E-E9A3DF26AE80" name="Usuarios PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 01:15:29 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26C54AF9-D7C8-741A-5A81-BA752C4B3698</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

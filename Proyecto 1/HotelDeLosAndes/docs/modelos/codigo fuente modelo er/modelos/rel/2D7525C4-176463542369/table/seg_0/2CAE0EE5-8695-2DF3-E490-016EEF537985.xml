@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CAE0EE5-8695-2DF3-E490-016EEF537985" name="ElementosHabitacion">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<ordsAlias>habitacionelementos</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TipoHabitacion_id" id="52C1EE93-69C2-91BB-BE1D-A8C4A44C91B9">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAB43BB5-4A5D-4DD6-F599-485EA7D09B34" referredColumn="693B22DC-1AE0-8E02-387E-6EECE629D94D"/>
+</associations>
+</Column>
+<Column name="ElementoDotacion_id" id="66DE240F-C7EA-E51B-CFEB-9F1AFC8FAC8C">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52109875-29B2-1F57-01B0-55030EF0C440" referredColumn="88131931-E88C-4073-AA50-2601B63C0431"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD113576-38BE-A20A-E9B9-4ECC6A3B7310" name="HabitacionElementos_PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52C1EE93-69C2-91BB-BE1D-A8C4A44C91B9"/>
+<colUsage columnID="66DE240F-C7EA-E51B-CFEB-9F1AFC8FAC8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF8F9F4B-F61F-2D12-6740-73FEFA1BBCDF" name="ElementoHabitacion_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>0C7E0B8F-B5DF-9052-1063-39D7939686E7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52C1EE93-69C2-91BB-BE1D-A8C4A44C91B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1691E2C1-834F-53A9-B8EA-198660B898CC" name="HabitacionElemento_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>0C7E0B8F-B5DF-9052-1063-39D7939686E7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66DE240F-C7EA-E51B-CFEB-9F1AFC8FAC8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

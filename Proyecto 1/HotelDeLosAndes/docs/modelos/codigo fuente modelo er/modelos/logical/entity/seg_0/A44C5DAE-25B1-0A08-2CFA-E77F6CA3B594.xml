@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A44C5DAE-25B1-0A08-2CFA-E77F6CA3B594" name="ReservasSalonReunion">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 17:22:49 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A5FB4B27-C80C-70F0-BA16-7DB60E00AB3B">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 17:22:49 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaInicio" id="23034F37-DBE8-004C-6FCE-0DEFEB91CDAC">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 17:22:49 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="B31D9D82-76F0-4CD7-D846-19D84ED86D2D">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 17:22:49 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo" id="5B44B903-A8DC-C87C-3DF8-B8EF6E577AEE">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 17:22:49 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora fin limpieza" id="326FA3CD-F66A-E08B-313F-FE189D646E00">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 17:22:49 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id salon" id="1D076D72-29C4-22B8-D833-D572C1368522">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 17:32:28 UTC</createdTime>
+<generatorID>9876FAA3-6808-2FFF-276E-D00F48AFCB8C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<referedAttribute>AB2B71C7-E190-E96E-C068-3F8A6C4CA9B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CD201E4-DF89-05FC-C7B6-AD569DA87D33" name="ReservasSalonReunion_PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 17:22:49 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A5FB4B27-C80C-70F0-BA16-7DB60E00AB3B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Tipo de usuario</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+    </br>
+        <form th:action="@{/administrador/tiposUsuario/new/save}" method="post">
+            <div th:replace="~{fragments/tipoUsuarioForm :: tipoUsuarioForm(titulo='Crear Tipo Usuario')}"></div>
+        </form>
+</body>
+</html>

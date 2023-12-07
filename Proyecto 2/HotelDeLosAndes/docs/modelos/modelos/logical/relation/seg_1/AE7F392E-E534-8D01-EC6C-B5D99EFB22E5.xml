@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Consumos_Usuarios_FKv2" directorySegmentName="seg_1" id="AE7F392E-E534-8D01-EC6C-B5D99EFB22E5">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>8F054855-1AF8-2C28-90A9-9C54B86144D0</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<sourcePk>DCF2F18F-AB79-4FAA-CCAB-41A9B4B5AFD7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9FA80552-D340-B740-D0D2-85C1A9F8BE48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A273AECA-3352-D6F5-865B-918F7C4EC9CC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel de Los Andes</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="container mx-auto w-25">
+
+    <h1>Hotel de Los Andes</h1>
+    <img th:src="@{/images/logo.png}" width="250">
+
+<div>
+    <a th:href="@{/hotel/administrador}" class="btn btn-primary d-block mb-2">Ver como administrador</a>
+    <a th:href="@{/hotel/cliente}" class="btn btn-primary d-block mb-2">Ver como cliente</a>
+    <a th:href="@{/hotel/recepcionista}" class="btn btn-primary d-block mb-2">Ver como recepcionista</a>
+    <a th:href="@{/hotel/empleado}" class="btn btn-primary d-block mb-2">Ver como otro  empleado</a>
+</div>
+    <br/>
+
+</div>
+</body>
+</html>

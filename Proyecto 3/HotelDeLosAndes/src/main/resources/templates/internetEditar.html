@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Internet</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+<form th:action="@{'/consultas/servicios/internets/' + ${id} + '/edit/save'}" th:object="${internet}" method="post">
+    <div th:replace="~{fragments/internetForm :: internetForm(titulo='Editar Internet', internet=${internet})}">
+    </div>
+</form>
+
+</body>
+</html>

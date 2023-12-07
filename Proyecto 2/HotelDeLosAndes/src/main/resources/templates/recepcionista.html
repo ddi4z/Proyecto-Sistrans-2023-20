@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recepcionista</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="container mx-auto w-25">
+
+    <h1>Recepcionista</h1>
+    <img th:src="@{/images/recepcionista.png}" width="250">
+
+<div>
+    <a th:href="@{/recepcionista/consumosV1}" class="btn btn-primary d-block mb-2">Ver consumos del hotel</a>
+    <a th:href="@{/recepcionista/consumosV2}" class="btn btn-primary d-block mb-2">Ver consumos del hotel v2</a>
+    <a th:href="@{/recepcionista/llegadas}" class="btn btn-primary d-block mb-2">Ver llegada de un cliente</a>
+    <a th:href="@{/recepcionista/salidas}" class="btn btn-primary d-block mb-2">Ver salida de un cliente</a>
+    <a th:href="@{/}" class="btn btn-secondary d-block mb-2">Cambiar usuario</a>
+</div>
+    <br/>
+
+</div>
+</body>
+</html>

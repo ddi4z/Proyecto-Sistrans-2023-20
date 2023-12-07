@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fragmento</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+
+    </br>
+    <div th:fragment="habitacionForm(titulo)" class="container border border-2 w-25">
+        <h1 class="text-center" th:text="${titulo}"></h1>
+    <form>
+
+        <label class="col-form-label" for="ocupada">Presupuesto:</label>
+        <select class="form-control" id="ocupada" name="Ocupada" required>
+            <option value="Si" th:selected="${habitacion.ocupada eq '1'}">Si</option>
+            <option value="No" th:selected="${habitacion.ocupada eq '0'}">No</option>
+        </select>
+
+        <label class="col-form-label" for="tipo">Tipo:</label>
+        <select class="form-control" id="tipo" name="tipo" required>
+            <th:block th:each="tipo : ${tipos}" >
+                <option th:value="${tipo.id}" th:text="${tipo.nombre}" th:selected="${habitacion!=null || habitacion.tipo.id == tipo.id}"></option>
+            </th:block>
+        </select><br>
+
+
+        <div class="text-center">
+            <input type="submit" value="Guardar" class="btn btn-primary">
+            <a th:href="@{/habitaciones}" class="btn btn-primary">Cancelar</a>
+        </div>
+    </form>
+
+    </br>
+</div>
+
+</body>
+
+</html>

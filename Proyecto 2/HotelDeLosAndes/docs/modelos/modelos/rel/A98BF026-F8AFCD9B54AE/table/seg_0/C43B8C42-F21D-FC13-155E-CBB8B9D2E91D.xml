@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C43B8C42-F21D-FC13-155E-CBB8B9D2E91D" name="MenusBares">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>C13AD99D-A3FC-562E-473D-71AF0EE21AE9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Bar_id" id="FFF0193D-E768-25C3-2A36-B0BEA777461B">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>17ADE670-E7CB-A5F0-499E-25F018A1BB99</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD413AD1-9FEE-6E18-0675-CFD795B064A9" referredColumn="5E9CBB17-8FB4-60CA-5CDA-C54FBEC86D4E"/>
+</associations>
+</Column>
+<Column name="Producto_id" id="6E1E41A1-6BCB-250B-96C4-CEC465C23656">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>F54FCD97-F8BD-CEEE-0E76-4E56368976D1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95E78AD0-21E0-1E78-207E-332E0C8E54EF" referredColumn="FB2EB4B8-E5DD-FB27-6172-046FB587B530"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D34C7D01-0C5C-E37A-E8E0-72CB6ABC1AD0" name="MenusBares_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>0980DE81-D1D1-FF7D-CE47-8B00FD63E9D6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFF0193D-E768-25C3-2A36-B0BEA777461B"/>
+<colUsage columnID="6E1E41A1-6BCB-250B-96C4-CEC465C23656"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB6C3CC1-7534-257D-B347-A83383EB5F14" name="BarProducto_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>3BC967AE-9574-379F-D406-D347360CE73B</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E1E41A1-6BCB-250B-96C4-CEC465C23656"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51F713A9-8690-61DA-B90C-C671C87E4157" name="ProductoBar_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>3BC967AE-9574-379F-D406-D347360CE73B</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFF0193D-E768-25C3-2A36-B0BEA777461B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

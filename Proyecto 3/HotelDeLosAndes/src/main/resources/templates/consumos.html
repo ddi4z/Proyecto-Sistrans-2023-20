@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Consumos</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Lista de Consumos</h1>
+    <div>
+        <a th:href='@{/consultas/consumos/new}' class="btn btn-primary">Añadir consumo</a>
+        <!-- <a th:href='@{sirven/new}' class="btn btn-primary">Añadir Bebida a Bar</a> -->
+        <a th:href='@{/consultas}' class="btn btn-primary">Volver Atrás</a>
+    </div>
+    <br />
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Fecha</th>
+                    <th>Descripcion</th>
+                    <th>Costo</th>
+                    <th>Pagado</th>
+                    <th>Id de la habitacion</th>
+                    <th>Id del servicio</th>
+                    <th>Id del cliente</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <th:block th:each="consumo : ${Consumos}">
+                <tr>
+                    <td th:text="${consumo.id}"></td>
+                    <td th:text="${consumo.fecha}"></td> 
+                    <td th:text="${consumo.descripcion}"></td>
+                    <td th:text="${consumo.costo}"></td>
+                    <td th:text="${consumo.pagado ? 'Si' : 'No'}"></td>
+                    <td th:text="${consumo.habitacion}"></td>
+                    <td th:text="${consumo.servicio}"></td>
+                    <td th:text="${consumo.cliente}"></td>
+     
+
+                    <td>
+                        <a th:href="@{consumos/{id}/edit(id=${consumo.id})}">Editar</a>
+                        <a th:href="@{consumos/{id}/delete(id=${consumo.id})}"
+                            onclick="return confirm('¿Estás seguro de borrar este consumo?')">Borrar</a>
+                    </td>
+                </tr>
+            </th:block>
+
+        </table>
+
+
+    </div>
+</body>
+
+</html>

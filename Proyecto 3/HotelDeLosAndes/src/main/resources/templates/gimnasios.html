@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Gimnasios</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Lista de Gimnasios</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Tipo</th>
+                    <th>Capacidad</th>
+                    <th>Hora inicio</th>
+                    <th>Hora fin</th>
+                    <th>Costo adicional</th>
+                    <th>Acciones adicional</th>
+                </tr>
+            </thead>
+            <th:block th:each="gimnasio : ${Gimnasios}">
+                <tr>
+                    <td th:text="${gimnasio.id}"></td>
+                    <td th:text="${gimnasio.nombre}"></td>
+                    <td th:text="${gimnasio.tipo}"></td>
+                    <td th:text="${gimnasio.capacidad}"></td>
+                    <td th:text="${gimnasio.horaInicio}"></td>
+                    <td th:text="${gimnasio.horaFin}"></td>
+                    <td th:text="${gimnasio.costoAdicional}"></td>
+
+                    <td>
+                        <a th:href="@{gimnasios/{id}/edit(id=${gimnasio.id})}">Editar</a>
+                        <a th:href="@{gimnasios/{id}/delete(id=${gimnasio.id})}"
+                            onclick="return confirm('¿Estás seguro de borrar este gimnasio?')">Borrar</a>
+                    </td>
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{/consultas/servicios/gimnasios/new}' class="btn btn-primary">Añadir gimnasio</a>
+            <!-- <a th:href='@{sirven/new}' class="btn btn-primary">Añadir Bebida a Bar</a> -->
+            <a th:href='@{/consultas/servicios}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>

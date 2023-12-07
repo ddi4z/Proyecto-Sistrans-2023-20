@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fragmento</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+    <div th:fragment="consumoForm(titulo)" class="container border border-2 w-25">
+        <h1 class="text-center" th:text="${titulo}"></h1>
+    <form>
+
+        <label class="col-form-label" >fecha:</label>
+        <input class="form-control" type="date" id="fecha" name="fecha" required th:value="${consumo.fecha}" />
+
+        <label  class="col-form-label">descripcion:</label>
+        <input class="form-control" type="text" id="descripcion" name="descripcion" required th:value="${consumo.descripcion}" />
+        
+        <label class="col-form-label" >costo:</label>
+        <input class="form-control" type="number" id="costo" name="costo" required th:value="${consumo.costo}" />
+
+        <label  class="col-form-label">pagado:</label>
+        <input class="form-control" type="checkbox" id="pagado" name="pagado" required th:value="${consumo.pagado}" />
+
+        <label class="col-form-label" >habitacionId:</label>
+        <input class="form-control" type="number" id="habitacionId" name="habitacionId" required th:value="${consumo.habitacionId}" />
+
+        <label  class="col-form-label">servicioId:</label>
+        <input class="form-control" type="number" id="servicioId" servicioId="estilo" required th:value="${consumo.servicioId}" />
+
+    </form>
+</br>
+</div>
+
+</body>
+</html>
+

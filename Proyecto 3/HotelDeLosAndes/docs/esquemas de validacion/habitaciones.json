@@ -1,0 +1,21 @@
+{
+  "$jsonSchema":{
+  "bsonType": "object",
+  "required": [
+    "_id",
+    "ocupada",
+    "tipo"
+  ],
+  "properties":{
+  	"_id":{
+      "bsonType":"int"
+    },
+  	"ocupada":{
+      "bsonType":"bool"
+    },
+    "tipo":{
+      "bsonType":"int"
+    }
+  }
+}
+}

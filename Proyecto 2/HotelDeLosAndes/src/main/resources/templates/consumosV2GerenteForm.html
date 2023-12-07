@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consumos de Servicio</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Consulta de Usuarios que No han consumido un Servicio</h1>
+
+        <form action="/hotel/gerente/consumosV2" method="post">
+
+            <div class="form-group">
+                <label for="servicio">Servicio:</label>
+                <select class="form-control" id="servicio" name="servicio" required>
+                    <th:block th:each="tipo : ${Tipos}">
+                        <option th:value="${tipo}" th:text="${tipo}" ></option>
+                    </th:block>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="fechaInicial">Fecha de Inicio:</label>
+                <input type="date" class="form-control" id="fechaInicial" name="fechaInicial" />
+            </div>
+
+            <div class="form-group">
+                <label for="fechaFinal">Fecha de Fin:</label>
+                <input type="date" class="form-control" id="fechaFinal" name="fechaFinal" />
+            </div>
+
+            <div class="form-group">
+                <label for="servicio">Ordenamiento/Agrupamiento:</label>
+                <select class="form-control" id="ordenamiento" name="ordenamiento" required>
+                    <option value="TIPO_DOCUMENTO">TIPO DOCUMENTO</option>
+                    <option value="NUM_DOCUMENTO">NUM DOCUMENTO</option>
+                    <option value="NOMBRE">NOMBRE</option>
+                    <option value="CORREO">CORREO</option>
+                    <option value="ROL">ROL</option>
+                </select>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Consultar</button>
+                <a th:href="@{/gerente}" class="btn btn-secondary">Volver atrás</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

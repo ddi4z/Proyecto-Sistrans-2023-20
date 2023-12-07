@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ReservasSpa Spas FK" directorySegmentName="seg_0" id="F570AC5C-3336-F95E-6394-5CD5C957527A">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-23 14:32:29 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<sourcePk>3B9E009B-30AD-D72F-8B9C-0876636FA718</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3881A0CC-FC64-2FF4-222B-229544AEC378</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8E94691F-F32D-F639-2768-642E2E1AAA8A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

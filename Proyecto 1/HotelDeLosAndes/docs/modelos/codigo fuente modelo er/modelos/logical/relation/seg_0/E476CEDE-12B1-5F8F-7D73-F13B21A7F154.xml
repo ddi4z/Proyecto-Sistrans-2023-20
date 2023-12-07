@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MenusEstablecimientos" directorySegmentName="seg_0" id="E476CEDE-12B1-5F8F-7D73-F13B21A7F154">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-21 04:12:10 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C27DF453-C3E6-B073-89B8-4F948014A0F3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5C74699-36AA-F199-5D70-08627BED0728</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

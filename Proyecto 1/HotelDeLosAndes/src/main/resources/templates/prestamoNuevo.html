@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Prestamo</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+    </br>
+    <form th:action="@{/prestamos/new/save}" method="post">
+    <div th:replace="~{fragments/prestamoForm :: prestamoForm(titulo='Crear prestamo')}">
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fragmento</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+    <div th:fragment="restauranteForm(titulo)" class="container border border-2 w-25">
+        <h1 class="text-center" th:text="${titulo}"></h1>
+    <form>
+
+        <label class="col-form-label" >Nombre:</label>
+        <input class="form-control" type="text" id="nombre" name="nombre" required th:value="${Restaurante.nombre}" />
+
+        <label class="col-form-label" >Capacidad:</label>
+        <input class="form-control" type="number" id="capacidad" name="capacidad" required th:value="${Restaurante.capacidad}" />
+
+        <label class="col-form-label" for="estilo">Estilo:</label>
+        <select class="form-control" id="estilo" name="estilo" required>
+            <th:block th:each="estilo : ${estilos}" >
+                <option th:value="${estilo.estilo}" th:text="${estilo.estilo}" th:selected="${estilo == Restaurante.estilo}"></option>
+            </th:block>
+        </select><br>
+
+        <div class="text-center">
+        <input type="submit" value="Guardar" class="btn btn-primary">
+        <a th:href="@{/consultas/servicios/restaurantes}" class="btn btn-primary">Cancelar</a>
+        </div>
+    </form>
+</br>
+</div>
+
+</body>
+</html>

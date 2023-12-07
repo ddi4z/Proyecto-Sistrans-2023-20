@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Reservas de spa</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Lista de Reservas de spa</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Hora inicio</th>
+                    <th>Hora fin</th>
+                    <th>Costo</th>
+                    <th>Id del spa</th>
+                    <th>Numero de documento</th>
+                </tr>
+            </thead>
+            <th:block th:each="reserva : ${ReservasSpas}">
+               <tr>
+                    <td th:text="${reserva.id}"></td>
+                    <td th:text="${reserva.horaInicio}"></td>
+                    <td th:text="${reserva.horFin}"></td>
+                    <td th:text="${reserva.Costo}"></td>
+                    <td th:text="${reserva.spa.id}"></td>
+                    <td th:text="${reserva.usuario.numDocumento}"></td>
+
+                    <td>
+                        <a th:href="@{reservasSpa/{id}/edit(id=${reserva.id})}">Editar</a>
+                        <a th:href="@{reservasSpa/{id}/delete(id=${reserva.id})}"
+                            onclick="return confirm('¿Estás seguro de borrar esta reserva?')">Borrar</a>
+                    </td> 
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{reservasSpa/new}' class="btn btn-primary">Añadir reserva</a>
+            <!-- <a th:href='@{sirven/new}' class="btn btn-primary">Añadir Bebida a Bar</a> -->
+            <a th:href='@{/cliente}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FE03D4F-51D9-0355-1154-030585B95625" name="MenusEstablecimientos">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>7933EADF-0F7D-2DBF-E18D-56EBFB136B45</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EstablecimientoComercio_id" id="6935CCB3-6D3C-1EA2-07A9-F2767D1EA0B7">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>C9A876B6-C5F7-7343-027F-E19DE88086C5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DEB3F5E-3DED-ACB0-471B-64A5EA6A3329" referredColumn="118D3FE1-928A-6EEA-07D5-B7969E291543"/>
+</associations>
+</Column>
+<Column name="Producto_id" id="7826D21D-05FA-63C4-ED25-34F7AA4D4EFF">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>9CB56667-04B8-6BBA-5DF6-D4A960B1A242</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DF9CC5C-7FBB-0B44-25BC-026D225DCD80" referredColumn="FB2EB4B8-E5DD-FB27-6172-046FB587B530"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2392C4D4-A012-36F5-CC5E-B63542E415CC" name="MenusEstablecimientos_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>D0076637-473D-2A85-A365-45E84E7EE43E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6935CCB3-6D3C-1EA2-07A9-F2767D1EA0B7"/>
+<colUsage columnID="7826D21D-05FA-63C4-ED25-34F7AA4D4EFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D32BAEB-9619-71BB-2D2D-590EA9064DF4" name="ProductoEstablecimiento_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>DC7F86E2-E73B-AEA0-9F5A-EC39C3BD3647</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6935CCB3-6D3C-1EA2-07A9-F2767D1EA0B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF6061AF-291F-8FE2-773F-7FA8D1360CFF" name="EstablecimientoProducto_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>DC7F86E2-E73B-AEA0-9F5A-EC39C3BD3647</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7826D21D-05FA-63C4-ED25-34F7AA4D4EFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4B0EB530-7C15-E095-398C-E29F243E0DCE" containerWithKeyObject="57212C30-A7C8-9DAE-0B26-2B55E882169D" localFKIndex="E819E671-CD62-D15E-97A0-B28A121D766E" name="ReservaReunion_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>5E44F2AF-03D8-3F12-6A4E-886794A813B8</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>54EFE3EE-79F3-7779-7C51-B452D9E63BB1</importedID>
+<referredTableLongName>SalonesReunion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A19C9EB4-69E1-1229-6F3A-C2C8D6146ECA</referredTableID>
+<keyObject>4B74DB0B-E855-BDD3-DCE9-B815A9A0E79B</keyObject>
+<referredKeyID>4B74DB0B-E855-BDD3-DCE9-B815A9A0E79B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

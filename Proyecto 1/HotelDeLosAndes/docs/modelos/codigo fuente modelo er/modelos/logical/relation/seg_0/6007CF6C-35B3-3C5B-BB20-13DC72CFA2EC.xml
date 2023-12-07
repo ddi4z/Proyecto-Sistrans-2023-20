@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ConferenciaServicio FK" directorySegmentName="seg_0" id="6007CF6C-35B3-3C5B-BB20-13DC72CFA2EC">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 03:23:05 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<targetPk>FC7DC312-9BD5-A271-0820-C522735F0CB8</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7A61203-1D6F-24F5-17B8-53561A8F841B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FF0E309F-33CC-0997-EB8C-DEF6E91A1764</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

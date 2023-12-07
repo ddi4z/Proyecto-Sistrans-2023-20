@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Conferencias_Usuarios_FK" directorySegmentName="seg_1" id="215780EF-A6DB-5C34-7BD7-2A64EDDE68DF">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>0EFEBD5F-97BC-FD02-ABC3-1BAB177C19EF</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<sourcePk>DCF2F18F-AB79-4FAA-CCAB-41A9B4B5AFD7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9FA80552-D340-B740-D0D2-85C1A9F8BE48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0B4D9553-6271-9B97-8A52-356AEA8D84A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

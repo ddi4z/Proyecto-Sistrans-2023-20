@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A91303D-1927-1DBC-46AA-77A64D370F72" containerWithKeyObject="D6BF5EBA-349E-0A07-548F-D3C24D23956D" localFKIndex="E175E6F7-37D9-60C4-7B94-5EA19F9722E7" name="ElementoHabitacion_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>8E26D47E-C30C-CA28-6224-7DD4638C47BB</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>F093C5A3-4BA9-E29E-F0D0-BE063D693D57</importedID>
+<referredTableLongName>TiposHabitacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F0510C1-A547-781F-B1D4-69346146B4E6</referredTableID>
+<keyObject>29A2C305-A5D6-01D8-DA68-1E5558E4EF35</keyObject>
+<referredKeyID>29A2C305-A5D6-01D8-DA68-1E5558E4EF35</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

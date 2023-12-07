@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B175BB8B-A94E-678A-56FF-F435F3E75AD5" containerWithKeyObject="97B80B52-B467-FEF9-CABE-C03DA3B7D5BA" localFKIndex="5D8D02FF-5324-9AA6-3174-A0A50D37C49C" name="Reservas_Usuarios_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>404A9B73-7673-FB67-AF3E-E9A3DF26AE80</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>6B8963F8-9E96-9B82-3DBA-B17491EDF9DC</importedID>
+<referredTableLongName>Usuarios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A56FCCFB-4144-F75C-4F98-746F38931EFA</referredTableID>
+<keyObject>55A3E985-E4A2-3F1E-FA44-028075327B4C</keyObject>
+<referredKeyID>55A3E985-E4A2-3F1E-FA44-028075327B4C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>num_documento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

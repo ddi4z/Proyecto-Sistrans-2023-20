@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A19C9EB4-69E1-1229-6F3A-C2C8D6146ECA" name="SalonesReunion">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>639BF8A2-02F9-C871-B03F-05D9893EF273</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>A9996FC4-0E6B-E6DD-59B4-E0B6865C6A65</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C99983E5-AD6A-E5A8-C57C-D5F12DC9C916">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>7906B24A-BDB6-5438-DAC6-74F316621D44</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>6BDF9E57-499B-BD09-9D04-1C5483826367</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B198742D-DF42-208E-3236-758D33735504" referredColumn="07FCCB6D-0160-3C2E-3DD0-4C6E6032A989"/>
+</associations>
+</Column>
+<Column name="capacidad" id="8624F2CB-1522-E9D8-2E42-C8138B7A423E">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>7D89B898-98A3-A54F-44B5-C3EB03A82312</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>EACFA2E0-AF57-7910-2AD3-1F0163942E24</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo_hora" id="24C84541-E52E-4DC7-B07B-D319DD9DBAC2">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>979BF217-675B-A8A4-AEF1-5B19EE4A24D3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>0AB777F3-6F54-F1D6-D855-0188DDB74D07</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo_equipos" id="6FF9DFED-6312-DEF0-9B6B-F60E243311A2">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>5519AD49-DAC7-C074-023C-853A7DD064E9</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>16BE41F4-70DD-31C8-9B39-D2BCB487BCE2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B74DB0B-E855-BDD3-DCE9-B815A9A0E79B" name="SalonesReunion_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>1956E264-431F-0C28-B88A-B00826D0D818</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>17A7C340-4032-D927-1385-C0DCB92808CF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C99983E5-AD6A-E5A8-C57C-D5F12DC9C916"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05FF7A84-0E38-5A10-C633-093574A910DD" name="ReunionServicio_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>BACAFB6C-6945-E6B8-5265-F4E62D628D2E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C99983E5-AD6A-E5A8-C57C-D5F12DC9C916"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Salon de reunion</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+<form th:action="@{'/consultas/servicios/salonesReunion/' + ${id} + '/edit/save'}" th:object="${salonReunion}" method="post">
+    <div th:replace="~{fragments/salonReunionForm :: salonReunionForm(titulo='Editar Salon de Reunion', salonReunion=${salonReunion})}">
+    </div>
+</form>
+
+</body>
+</html>

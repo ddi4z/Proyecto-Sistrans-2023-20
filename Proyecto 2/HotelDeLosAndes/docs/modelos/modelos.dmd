@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelos" id="CDAA48CD-D552-46BD-9AAA-83C03C6B2CC8" version="3.5">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:24 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CDAA48CD-D552-46BD-9AAA-83C03C6B2CC8</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="0A767347-A6E7-CD9B-23F7-6D4D8EB511AA">
+<designStoragePath>C:\Users\Sarita\Desktop\U\SisTrans\G-03\HotelDeLosAndes\docs\modelos\codigo fuente modelo er\modelos</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="56228AD2-D944-6C86-2D48-3E7A4FB23DE8">
+<designStoragePath>C:\Users\Sarita\Desktop\U\SisTrans\G-03\HotelDeLosAndes\docs\modelos\modelo</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="33EAD225-6F96-5E7E-F714-8A4D2D0A691F">
+<designStoragePath>C:\Users\Sarita\Desktop\U\SisTrans\G-03\HotelDeLosAndes\docs\modelos\modelos</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="0F87A774-2D56-5B6F-4290-7F3BE1409C4B">
+<designStoragePath>C:\Users\Sarita\Desktop\U\SisTrans\G-03\HotelDeLosAndes\docs\modelos\modelos</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="AF1538BE-14C8-C2DB-6CC3-7A1CA707D112">
+<designStoragePath>C:\Users\danie_a66bo4y\Desktop\G-03\HotelDeLosAndes\docs\modelos\modelos</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BCD55538-BFFE-4650-F049-B118AA7E8976">
+<designStoragePath>C:\Users\Sarita\Desktop\U\SisTrans\G-03\HotelDeLosAndes\docs\modelos\modelos</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

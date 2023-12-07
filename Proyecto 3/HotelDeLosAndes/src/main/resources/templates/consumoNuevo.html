@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Consumo</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+    </br>
+    <form th:action="@{/consultas/consumos/new/save}" method="post">
+    <div th:replace="~{fragments/consumoForm :: consumoForm(titulo='Crear consumo',habitaciones=${habitaciones},servicios=${servicios} )}">
+    </div>
+    </form>
+</body>
+</html>
+
+
+
+

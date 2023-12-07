@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5790F33-4178-9F95-61DE-820CD8450926" name="ServiciosPlanes">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>3DAEAD5F-9FD5-4142-345C-00D5DECF7536</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Servicio_id" id="8EB5CE0D-138A-0432-68DA-3227E50405D9">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>E39FF1DE-5C3D-A8C5-D105-F6289C393C4F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76D7348D-E6C7-E53E-0A80-F7E889C6E37B" referredColumn="07FCCB6D-0160-3C2E-3DD0-4C6E6032A989"/>
+</associations>
+</Column>
+<Column name="PlanConsumo_id" id="DFAE20C3-6D9A-B329-7A78-CCEDEB24B7C5">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>43F920D5-EED2-2A95-16C9-3234C0D26155</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A3691FE-6488-8626-21B2-E8A07E6315C9" referredColumn="43CF1499-C509-9F25-B703-5B6E825B9830"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D0EE609-EDB6-E954-1137-0E08CA518713" name="ServiciosPlanes_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>1551BBF2-A792-96C1-C96A-BFD40E7C87E2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EB5CE0D-138A-0432-68DA-3227E50405D9"/>
+<colUsage columnID="DFAE20C3-6D9A-B329-7A78-CCEDEB24B7C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67D1206C-BF78-70E5-7441-4B38C268B430" name="PlaneServicio_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>DCB18DF7-640C-F602-7E7F-859D5FB47001</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EB5CE0D-138A-0432-68DA-3227E50405D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C22BEE57-AA1D-160F-DB94-66F4C9003C41" name="ServicioPlan_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>DCB18DF7-640C-F602-7E7F-859D5FB47001</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFAE20C3-6D9A-B329-7A78-CCEDEB24B7C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

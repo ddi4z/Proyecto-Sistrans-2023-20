@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Piscina</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+    </br>
+    <form th:action="@{/piscinas/new/save}" method="post">
+    <div th:replace="~{fragments/piscinaForm :: piscinaForm(titulo='Crear piscina')}">
+    </div>
+    </form>
+</body>
+</html>

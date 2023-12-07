@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HabitacionElemento_FK" directorySegmentName="seg_1" id="04210409-3D08-4BB3-0F5E-5BFADD521EA1">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>C4EC495C-3665-3349-AFF9-B020A61A67B1</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<sourcePk>3D34ED0B-837C-3A4C-EBE3-9F8EF651EDB4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>35A98D71-82CC-91D2-467D-487FFF2347C3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6C182097-F089-3E09-1C46-32A3E46F4850</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

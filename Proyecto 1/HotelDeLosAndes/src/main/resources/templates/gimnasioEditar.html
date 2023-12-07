@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Gimnasio</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+<form th:action="@{'/gimnasios/' + ${id} + '/edit/save'}" th:object="${gimnasio}" method="post">
+    <div th:replace="~{fragments/gimnasioForm :: gimnasioForm(titulo='Editar gimnasio', gimnasio=${gimnasio})}">
+    </div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "fechaEntrada",
+      "fechaSalida",
+      "noches",
+      "numeroPersonas",
+      "cliente",
+      "habitaciones"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "int"
+      },
+      "fechaEntrada": {
+        "bsonType": "date"
+      },
+      "fechaSalida": {
+        "bsonType": "date"
+      },
+      "noches": {
+        "bsonType": "int"
+      },
+      "numeroPersonas": {
+        "bsonType": "int"
+      },
+      "checkIn": {
+        "bsonType": [
+          "date",
+          "null"
+        ]
+      },
+      "checkOut": {
+        "bsonType": [
+          "date",
+          "null"
+        ]
+      },
+      "cliente": {
+        "bsonType": "string"
+      },
+      "habitaciones": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "int"
+        }
+      }
+    }
+  }
+}

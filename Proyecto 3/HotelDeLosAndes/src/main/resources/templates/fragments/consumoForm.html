@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fragmento</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+    <div th:fragment="consumoForm(titulo)" class="container border border-2 w-25">
+        <h1 class="text-center" th:text="${titulo}"></h1>
+    <form>
+
+        <label class="col-form-label" >fecha:</label>
+        <input class="form-control" type="datetime-local" id="fecha" name="fecha" required th:value="${Consumo.fecha}" />
+
+        <label  class="col-form-label">descripcion:</label>
+        <input class="form-control" type="text" id="descripcion" name="descripcion" required th:value="${Consumo.descripcion}" />
+
+        <label class="col-form-label" >costo:</label>
+        <input class="form-control" type="number" step="any" id="costo" name="costo" required th:value="${Consumo.costo}" />
+
+        <label  class="col-form-label">pagado:</label>
+        <input class="form-control" type="checkbox" id="pagado" name="pagado"  th:value="${Consumo.pagado}" />
+
+
+        <label class="col-form-label" for="habitacion">id habitacion:</label>
+        <select class="form-control" id="habitacion" name="habitacion" required>
+            <th:block th:each="habitacion : ${habitaciones}" >
+                <option th:value="${habitacion.id}" th:text="${habitacion.id}" th:selected="${Consumo!=null || Consumo.habitacion == habitacion.id} "></option>
+            </th:block>
+        </select><br>
+
+        
+        <label class="col-form-label" for="servicio">id servicio:</label>
+        <select class="form-control" id="servicio" name="servicio" required>
+            <th:block th:each="servicio : ${servicios}" >
+                <option th:value="${servicio.id}" th:text="${servicio.id}" th:selected="${Consumo!=null || Consumo.servicio == servicio.id}"></option>
+            </th:block>
+        </select><br>
+
+        <label  class="col-form-label">Cedula cliente:</label>
+        <input class="form-control" type="text" id="cliente" name="cliente" required th:value="${Consumo.cliente}" />
+
+
+        <div class="text-center">
+            <input type="submit" value="Guardar" class="btn btn-primary">
+            <a th:href="@{/consultas/consumos}" class="btn btn-primary">Cancelar</a>
+        </div>
+    </form>
+</br>
+</div>
+
+</body>
+</html>
+

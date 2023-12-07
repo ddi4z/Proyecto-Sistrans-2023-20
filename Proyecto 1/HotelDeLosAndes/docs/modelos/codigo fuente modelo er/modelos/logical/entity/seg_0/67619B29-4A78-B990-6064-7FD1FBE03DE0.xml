@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67619B29-4A78-B990-6064-7FD1FBE03DE0" name="ServiciosLavanderia">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-21 03:43:57 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="prenda" id="B5C44743-12DA-71BC-9DC0-E41E25F56F4B">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-21 03:49:22 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo" id="4E74F36D-14DB-98D3-4B4C-081E292209D1">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-21 03:49:24 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="37BC5C4A-AF86-2342-0F3C-67D75C58955D">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-23 14:35:52 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<listOfValues>
+<valueDef value="EMBOLAR" description=""/>
+<valueDef value="LAVAR" description=""/>
+<valueDef value="PLANCHAR" description=""/>
+</listOfValues>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="54A37805-8F71-6937-AA65-7C1B3C1ABCDE">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 15:21:50 UTC</createdTime>
+<generatorID>949B461A-72F7-6430-5E50-DF19AA648649</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<referedAttribute>A13542AA-DE40-A1CC-846F-9FECE837EA67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65964996-2836-C214-C9E7-BB75E725FCAC" name="ServiciosLavanderia PK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 16:28:14 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54A37805-8F71-6937-AA65-7C1B3C1ABCDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

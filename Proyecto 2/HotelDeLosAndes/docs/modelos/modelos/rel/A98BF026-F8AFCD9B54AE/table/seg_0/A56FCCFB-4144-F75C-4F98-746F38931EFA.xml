@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A56FCCFB-4144-F75C-4F98-746F38931EFA" name="Usuarios">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>AAF0E7D1-4012-8424-B8C4-D35BAC61E8C4</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>1A73BA5C-60A9-BA21-3061-3DB2B4BFF140</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo_documento" id="9756D0D9-3C53-75AC-9A36-BB708450404D">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>03ED096B-1C15-F47D-A4A6-284088AD826A</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>4AEF9F27-AFC9-62C6-FD6F-069BEF8DF1BC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_documento" id="B2528156-FC8F-D5CD-532B-0C6670C03217">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>7D6629B4-B44F-4CF7-117D-5705B2AB4583</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>D4FF46DE-0205-96B3-09AC-29EC1E7E07E8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="A5E26091-1EAE-1AE0-6D71-0BA5B531D0EA">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>1146D46B-CDCC-83D6-8F67-8ECDC8A4F6F7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>58E4ED03-0BF1-2302-3520-9319CAAEC97D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="0563FC53-3CDB-F855-BF46-E2D0CD08F13E">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>652ED1AA-670B-45D5-3143-FD71131F528E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>A82CDFBB-C433-40F5-30BF-8F0EC3A576E7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rol" id="0EBF3019-47FD-C267-D385-BE7BA5531C3B">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>ED0FB731-3052-F969-A669-DFE23F0F3F09</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>EF054BAD-49F4-CA3E-8DA7-EC06EA30E808</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31BE4400-BCDF-6E48-E9C4-63EE3C6D9922" referredColumn="EE9B0C93-445D-9BEA-1DDB-A4B6C7CB7E50"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55A3E985-E4A2-3F1E-FA44-028075327B4C" name="Usuarios_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>F644D769-ABB6-6C0C-91B6-61E11DA16E5A</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>F6CAF4F6-D773-B742-7A42-155BEDB7D2C0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2528156-FC8F-D5CD-532B-0C6670C03217"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1509DF15-0DF1-000D-578F-2F61D51034C9" name="Usuarios_TiposUsuarios_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>9777A6F8-14C6-2F8A-C6E7-B8BA2E472CC5</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EBF3019-47FD-C267-D385-BE7BA5531C3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Recolección de dinero por habitacion</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Recolección de dinero por habitacion</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Tipo</th>
+                    <th>Ocupada</th>
+                    <th>Recoleccion</th>
+                </tr>
+            </thead>
+            <th:block th:each="habitacion : ${Recoleccion}">
+                <tr>
+                    <td th:text="${habitacion[0]}"></td>
+                    <td th:text="${habitacion[1]}"></td>
+                    <td th:text="${habitacion[2] == 1 ? 'Si' : 'No'}"></td>
+                    <td th:text="${habitacion[3] == null ? '0' : habitacion[3]}"></td>
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{/gerente}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>

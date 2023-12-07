@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Planes de consumo</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Lista de Planes de consumo</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Fecha inicio vigencia</th>
+                    <th>Fecha fin vigencia</th>
+                    <th>Nombre</th>
+                    <th>Descuento alojamiento</th>
+                    <th>Descuento bar</th>
+                    <th>Descuento restaurante</th>
+                    <th>Descuento spa</th>
+                    <th>Tipo</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <th:block th:each="planConsumo : ${PlanesConsumo}">
+                <tr>
+                    <td th:text="${planConsumo.id}"></td>
+                    <td th:text="${planConsumo.fechaInicioVigencia}"></td>
+                    <td th:text="${planConsumo.fechaFinVigencia}"></td>
+                    <td th:text="${planConsumo.nombre}"></td>
+                    <td th:text="${planConsumo.descuentoAlojamiento}"></td>
+                    <td th:text="${planConsumo.descuentoBar}"></td>
+                    <td th:text="${planConsumo.descuentoRestaurante}"></td>
+                    <td th:text="${planConsumo.descuentoSpa}"></td>
+                    <td th:text="${planConsumo.tipo}"></td> 
+
+                    <td>
+                        <a th:href="@{planesConsumo/{id}/edit(id=${planConsumo.id})}">Editar</a>
+                        <a th:href="@{planesConsumo/{id}/delete(id=${planConsumo.id})}"
+                            onclick="return confirm('¿Estás seguro de borrar este plan?')">Borrar</a>
+                    </td>
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{/administrador/planesConsumo/new}' class="btn btn-primary">Añadir plan</a>
+            <!-- <a th:href='@{sirven/new}' class="btn btn-primary">Añadir Bebida a Bar</a> -->
+            <a th:href='@{/administrador}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>

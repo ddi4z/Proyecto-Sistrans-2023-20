@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BarProducto_FK" directorySegmentName="seg_1" id="396B98A0-2C6D-4FAD-661D-081C385A8A4A">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>95E78AD0-21E0-1E78-207E-332E0C8E54EF</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<sourcePk>B7924DCB-A782-D95E-3A4A-43E4685E5507</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E9C0AFB3-7120-A357-E59A-69C7EF2736AD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0255BF2B-434D-1A72-12C8-A86BE1D38685</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

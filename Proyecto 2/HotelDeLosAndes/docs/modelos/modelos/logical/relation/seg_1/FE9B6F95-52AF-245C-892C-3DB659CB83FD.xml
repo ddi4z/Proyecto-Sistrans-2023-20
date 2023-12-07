@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ServicioPlan_FK" directorySegmentName="seg_1" id="FE9B6F95-52AF-245C-892C-3DB659CB83FD">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>0A3691FE-6488-8626-21B2-E8A07E6315C9</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<sourcePk>FCD68040-D58E-3C28-7DA1-B2249FC6EFD2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>51703F06-577C-FF27-2AE4-582DF66ED0BA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2A481781-E219-F40F-0473-16386C8CD1D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

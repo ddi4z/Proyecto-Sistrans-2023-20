@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2BCD8733-DE44-3BE4-3994-7CD3E5B45199" containerWithKeyObject="C275AF16-7EC7-D031-8072-38799219DAEF" localFKIndex="B48719F0-530A-5960-644D-1D52FDBCC4F7" name="Tienen_MaquinasGimnasio_FK">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-26 02:43:26 UTC</createdTime>
+<generatorID>DF4F645A-5371-4557-1D48-2E33C0D724D7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<referredTableLongName>MaquinasGimnasio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3AB98BE1-C557-25A8-7006-5B3C10D7FAC7</referredTableID>
+<keyObject>09EFC65F-07D5-54DE-61BB-FC2756517876</keyObject>
+<referredKeyID>09EFC65F-07D5-54DE-61BB-FC2756517876</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

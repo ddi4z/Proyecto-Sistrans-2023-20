@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Bar</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+    </br>
+    <form th:action="@{/bares/new/save}" method="post">
+    <div th:replace="~{fragments/barForm :: barForm(titulo='Crear bar')}">
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="10937979-D88B-4122-7FCE-E0A528AB4226" containerWithKeyObject="E3F2153D-43CB-9B1B-0FA8-D9B53AB8D3CE" localFKIndex="C8BA2E56-982B-AFD9-354A-50728ABB7FCD" name="Tienen_MaquinasGimnasio_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>15BB0EF2-AC37-C4D9-0296-3699E0ADBCC3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>34A1B1BB-035F-8DA5-837B-8C483EE3D4BD</importedID>
+<referredTableLongName>MaquinasGimnasio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ABC09E94-817F-77F0-AA0F-1E66EBF420A9</referredTableID>
+<keyObject>09A1ED32-A580-8B75-0A4A-04DF7B6CB364</keyObject>
+<referredKeyID>09A1ED32-A580-8B75-0A4A-04DF7B6CB364</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

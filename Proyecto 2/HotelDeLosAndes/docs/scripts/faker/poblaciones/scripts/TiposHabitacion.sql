@@ -1,0 +1,11 @@
+create sequence idTiposHabitacion start with 1 increment by 1;
+insert into tiposHabitacion values (idTiposHabitacion.nextval, 'Suite presidencial', 8, 1000000);
+insert into tiposHabitacion values (idTiposHabitacion.nextval, 'Grand Suite', 7, 900000);
+insert into tiposHabitacion values (idTiposHabitacion.nextval, 'Familiar', 6, 800000);
+insert into tiposHabitacion values (idTiposHabitacion.nextval, 'Suite', 5, 700000);
+insert into tiposHabitacion values (idTiposHabitacion.nextval, 'Quadruple', 4, 600000);
+insert into tiposHabitacion values (idTiposHabitacion.nextval, 'Junior Suite', 3, 550000);
+insert into tiposHabitacion values (idTiposHabitacion.nextval, 'Triple', 3, 500000);
+insert into tiposHabitacion values (idTiposHabitacion.nextval, 'Matrimonial', 2, 450000);
+insert into tiposHabitacion values (idTiposHabitacion.nextval, 'Doble', 2, 400000);
+insert into tiposHabitacion values (idTiposHabitacion.nextval, 'Sencilla', 1, 300000);

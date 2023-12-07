@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Prestamos_Habitaciones_FK" directorySegmentName="seg_1" id="ED9C232D-FDCA-35BD-3F1A-796CE123EFED">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-11-08 02:21:15 UTC</createdTime>
+<generatorID>524F2EA2-3545-AE32-8D0C-2052E6046510</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="A98BF026-6741-3A19-2193-F8AFCD9B54AE" value="true"/>
+</engineerTo>
+<sourcePk>04D9D7AD-FF11-DB11-0D4C-7F52E4A04BC6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>31D94E39-94DA-4A3A-95BD-C104D56E3683</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>54A82573-3DAD-3DBF-309D-D0514D35F365</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

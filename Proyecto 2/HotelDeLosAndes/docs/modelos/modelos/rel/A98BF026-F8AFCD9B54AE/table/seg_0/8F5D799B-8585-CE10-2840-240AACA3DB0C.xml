@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F5D799B-8585-CE10-2840-240AACA3DB0C" name="ServiciosSpaReservasSpa">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>76BDF01C-591C-A0A7-F795-19A1B1496755</importedID>
+<ordsAlias>serviciosspa_reservasspa_fk</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ReservaSpa_id" id="9A30D168-12A7-C043-09F6-187CA9CB0338">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>8052F0EF-0D43-A859-446C-0443C024E305</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5313073B-94B5-F09A-DF1C-E13141A89243" referredColumn="B7A7C749-57D2-ACE9-5947-7C9B498799F4"/>
+</associations>
+</Column>
+<Column name="ServicioSpa_id" id="492F8C2A-C3F0-9104-C62C-0E319C63A54F">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>7F5BA3BB-1E9B-7142-205B-959E8584D9DC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CD4D061-B294-357E-D8AB-27C5E7B7772E" referredColumn="A8BFEC97-5DF8-0F30-2A1A-44E3192CA9D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40F12296-CC0F-E0F5-732A-7F7ADBE7AF14" name="ServiciosSpa_ReservasSpa_FK_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>06983732-0B5D-DEC9-85A1-D294C14D928A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A30D168-12A7-C043-09F6-187CA9CB0338"/>
+<colUsage columnID="492F8C2A-C3F0-9104-C62C-0E319C63A54F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D61DF07B-8AB5-41D0-6B89-8325D1E8FEAD" name="ReservaServicioSpa_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>FD9BFA1C-EA54-AF8E-00DE-F9DD62F6734C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="492F8C2A-C3F0-9104-C62C-0E319C63A54F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD6A3B04-B339-5CC8-2FCA-522C51D33509" name="ServicioReservaSpa_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>FD9BFA1C-EA54-AF8E-00DE-F9DD62F6734C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A30D168-12A7-C043-09F6-187CA9CB0338"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

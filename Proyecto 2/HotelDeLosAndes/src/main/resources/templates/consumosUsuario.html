@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Servicios Populares</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="text-center"></div>
+    <h1>Lista de consumos de un usuario</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Fecha</th>
+                    <th>Descripcion</th>
+                    <th>Costo</th>
+                    <th>Pagado</th>
+                    <th>Id de la habitacion</th>
+                    <th>Id del servicio</th>
+                    <th>Id del cliente</th>
+                    <th>id del empleado</th>
+                </tr>
+            </thead>
+            <th:block th:each="consumo : ${ConsumosUsuario}">
+                <tr>
+                    <td th:text="${consumo.id}"></td>
+                    <td th:text="${consumo.fecha}"></td> 
+                    <td th:text="${consumo.descripcion}"></td>
+                    <td th:text="${consumo.costo}"></td>
+                    <td th:text="${consumo.pagado}"></td>
+                    <td th:text="${consumo.habitacion.id}"></td>
+                    <td th:text="${consumo.servicio.id}"></td>
+                    <td th:text="${consumo.cliente.numDocumento}"></td>
+                    <td th:text="${consumo.empleado.numDocumento}"></td>
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{/gerente}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+    </div>
+</body>
+</html>

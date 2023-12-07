@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFDD10B9-A51A-9812-E1A5-A3F3F1D08779" name="Piscinas">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>89B9C54A-B1C2-F3E8-89EE-511CF9ED2D53</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>4AA5C738-75E3-3067-E954-37F301CCA7CE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F180D5E7-E0C8-6FF7-6C39-83D9BEE02567">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>E18140CB-FB70-9E41-A65D-B6182FDD6835</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>541E4A35-2B84-2B66-6435-F5FFC4CA854B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42581042-C43F-B2F4-1BE5-E43F73F0EA54" referredColumn="07FCCB6D-0160-3C2E-3DD0-4C6E6032A989"/>
+</associations>
+</Column>
+<Column name="capacidad" id="08C04045-B9DF-7E8D-4F97-A43437330556">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>34ED6E37-DCF5-A2A9-4D76-EB1C62B57CF3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>091E43B8-DD05-270F-3DF4-4A0A343DED15</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profundidad" id="FF850AB5-4633-6E76-EEED-7EE5A7638584">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>7C91F116-35F7-4D6E-A24A-81210BE43FF3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>1A982D4A-22D4-BA35-40AF-E77FE4705C46</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_inicio" id="2B706992-3990-90E0-D486-9FAE2613D131">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>AA6F9EEC-A336-5822-C709-98C5D6378E63</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>D858A571-DD0A-E6A2-2492-E4D062111E53</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_fin" id="F3634AE2-D524-BF5F-498B-A78FE00873A0">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>85CA65DA-020C-0265-5409-04F669BEA39C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>2EF57EC8-345B-1394-07C3-E881BC854E59</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo_adicional" id="969B96C1-E75F-64A7-4109-576F73630953">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>E151B7F8-127D-9391-58FC-8F62EA86C3FF</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>10FFA903-6540-C1B6-2F58-1722F86654F8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18BBA912-2401-BCD7-7490-C9BEFE2A6E36" name="Piscinas_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>A8826E83-4B57-03F4-41B3-EC0F47E78110</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>CDEF6A34-82BF-6950-8B44-93E48594345D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F180D5E7-E0C8-6FF7-6C39-83D9BEE02567"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07F98100-1FD5-D3EE-4F8B-9ABA5D29FECE" name="Piscinas_Servicios_FK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>DD00D4A6-7D79-681A-A013-249A32DBBE73</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F180D5E7-E0C8-6FF7-6C39-83D9BEE02567"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C49EF11E-0AF9-A0EB-D3B0-85B3A9CE2834" name="Productos">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>F65A2061-8BFC-4228-3D02-C81C2A64FC65</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>88B266D3-E61B-81CA-C9CC-9B0A15465268</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FB2EB4B8-E5DD-FB27-6172-046FB587B530">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>9993149B-E0B1-01BE-187B-3992D11A2347</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>AE382CC9-404C-FF8D-199C-569D203C0B25</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="FE320A0E-05AB-9863-CE0E-A608360FB622">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>E21A7FB2-8CFF-7A0A-3DCB-539FCA98A865</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>C3D3EAAF-4B3E-EA5E-B9B7-2FA3CC583513</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo" id="B6A3B175-7F98-CA3C-EA90-954EA1BD94CC">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>DAC0F721-FE1D-58D1-198F-6109D39F3139</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>178D402F-DC0D-0DB4-62E2-24B849971A11</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="incluido_en_planes" id="5C11D08B-ED95-4896-43A2-C5C7F871E3FD">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>C2EBCCB1-1554-FAC0-DB35-3CA026ED0BDD</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>E860E3BE-D280-B695-B721-11491417D169</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description="False"/>
+<valueDef value="1" description="True"/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B214E3B2-C2C6-DC94-3817-3DBE5ADDACC5" name="Productos_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>C8D7A8CB-5714-37E0-7385-0B4177F31F40</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>ADB8E22F-15A5-1845-2FE4-7FDFD1252A85</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB2EB4B8-E5DD-FB27-6172-046FB587B530"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

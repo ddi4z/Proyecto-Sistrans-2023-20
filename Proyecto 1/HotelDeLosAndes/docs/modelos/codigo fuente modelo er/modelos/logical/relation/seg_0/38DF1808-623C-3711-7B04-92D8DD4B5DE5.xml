@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Spas Servicios FK" directorySegmentName="seg_0" id="38DF1808-623C-3711-7B04-92D8DD4B5DE5">
+<createdBy>danie_a66bo4y</createdBy>
+<createdTime>2023-09-24 03:22:47 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="2D7525C4-2401-3C9C-9F3F-176463542369" value="true"/>
+</engineerTo>
+<targetPk>FC7DC312-9BD5-A271-0820-C522735F0CB8</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3881A0CC-FC64-2FF4-222B-229544AEC378</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FF0E309F-33CC-0997-EB8C-DEF6E91A1764</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

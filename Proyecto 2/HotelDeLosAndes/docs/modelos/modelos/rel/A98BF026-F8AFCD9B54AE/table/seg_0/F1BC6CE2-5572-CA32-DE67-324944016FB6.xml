@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1BC6CE2-5572-CA32-DE67-324944016FB6" name="ServiciosSpa">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>2FDA19F6-EACF-A243-ED1C-DC569E3AE7F7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>EC4AF434-36A6-1FA1-C446-C0D9DCE84ED8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A8BFEC97-5DF8-0F30-2A1A-44E3192CA9D8">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>F0C4A8D2-94DB-956D-4EC7-293D714C4FDC</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>B9374620-0920-3AC9-350D-506F1D1D6319</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="9C333D3A-9EEF-80EB-7228-625A12FB1AD0">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>91068ECB-042F-07C7-0669-B7ED75D1E8C2</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>25B5E591-FB9D-D791-8BAD-68CDD8EA0570</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracion" id="A970DE03-D272-7793-C295-7EBCFA00AA2B">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>298C1595-5EEF-D3CA-5E27-C724912C8479</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>D22FD813-8933-1374-B88E-1215DE843B59</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo" id="F3081273-BDC5-6E35-2300-A2CD83A383BD">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>8466B23D-0149-719A-8C03-49C27F127FAC</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>E25B3D1A-F8BD-7A47-D34B-C7A5EB2347B8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23217C9B-D1A8-0720-4784-4F8DEB414877" name="ServiciosSpa_PK">
+<createdBy>Sarita</createdBy>
+<createdTime>2023-11-04 21:43:43 UTC</createdTime>
+<generatorID>884A2130-D090-C6D4-434F-E6FAF073259D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<importedID>8B87B406-B42B-79A2-E28B-47B839B8212F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8BFEC97-5DF8-0F30-2A1A-44E3192CA9D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

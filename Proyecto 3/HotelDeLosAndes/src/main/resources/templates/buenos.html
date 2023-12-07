@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de buenos usuarios</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Lista de buenos usuarios</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Tipo documento</th>
+                    <th>Total gastos</th>
+                    <th>Total noches</th>
+                </tr>
+            </thead>
+            <th:block th:each="usuario : ${Buenos}">
+                <tr>
+                    <td th:text="${usuario[0]}"></td>
+                    <td th:text="${usuario[1] == null ? '0' : usuario[1]}"></td>
+                    <td th:text="${usuario[2]}"></td>
+
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{/gerente}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+create sequence idMaquinasGimnasio start with 1 increment by 1;
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Caminadora');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Bicicleta');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Barra');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Bicicleta');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Eliptica');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Escaladora');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Simulador');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'rotadora');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Maquina de remo');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Banco de pesas');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Maquina de musculacion');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Maquina de poleas');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Prensa de piernas');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Maquina de abdominales');
+insert into maquinasGimnasio values (idMaquinasGimnasio.nextval, 'Maquina de press de banca');

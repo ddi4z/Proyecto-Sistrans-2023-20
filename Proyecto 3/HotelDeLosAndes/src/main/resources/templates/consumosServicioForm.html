@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consumos de un servicio</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h1 class="text-center">Consumos de un servicio</h1>
+                <form action="/hotel/requerimientos/consumosServicio" method="post">
+                    <div class="form-group">
+                        <label for="fechaInicio">Fecha de inicio:</label>
+                        <input type="date" class="form-control" id="fechaInicio" name="fechaInicio" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="fechaFin">Fecha de fin:</label>
+                        <input type="date" class="form-control" id="fechaFin" name="fechaFin" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label" for="tipoServicio">Servicio:</label>
+                        <select class="form-control" id="tipoServicio" name="tipoServicio" required>
+                            <option >Cualquiera</option>
+                            <option th:each="tipo : ${tipos}" th:value="${tipo.tipo}" th:text="${tipo.tipo}"></option>
+                        </select><br>
+                    </div>
+
+
+
+
+                    <div class="form-group">
+                        <label for="ordenamiento">Ordenamiento/Agrupamiento:</label>
+                        <select class="form-control" id="ordenamiento" name="ordenamiento" required>
+                            <option value="cliente.nombre">Nombre</option>
+                            <option value="cliente.tipoDocumento">Tipo Documento</option>
+                            <option value="cliente.documento">Documento</option>
+                            <option value="cliente.correo">Correo</option>
+                            <option value="pagado">Pagado</option>
+                            <option value="fecha">Fecha</option>
+                        </select>
+                    </div>
+                    <div class="text-center mt-3">
+                        <button type="submit" class="btn btn-primary">Consultar</button>
+                        <a th:href="@{/requerimientos}" class="btn btn-secondary">Volver atrás</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

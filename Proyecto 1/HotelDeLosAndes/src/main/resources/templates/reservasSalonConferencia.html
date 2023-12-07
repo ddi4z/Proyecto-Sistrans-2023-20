@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Reservas de salones de conferencia</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+    <div class="text-center">
+    <h1>Lista de Reservas de salones de conferencia</h1>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>id</th>
+                    <th>hora inicio</th>
+                    <th>duracion</th>
+                    <th>costo</th>
+                    <th>hora fin limpieza</th>
+                    <th>id salon</th>
+                </tr>
+            </thead>
+            <th:block th:each="reservaSalonConferencia : ${reservasSalonConferencia}">
+                <tr>
+                    <td th:text="${reservaSalonConferencia.id}"></td>
+                    <td th:text="${reservaSalonConferencia.horaInicio}"></td>
+                    <td th:text="${reservaSalonConferencia.duracion}"></td>
+                    <td th:text="${reservaSalonConferencia.costo}"></td>
+                    <td th:text="${reservaSalonConferencia.horaFinLimpieza}"></td>
+                    <td th:text="${reservaSalonConferencia.idSalon}"></td>
+
+                    <td>
+                        <a th:href="@{reservasSalonConferencia/{id}/edit(id=${reservaSalonConferencia.id})}">Editar</a>
+                        <a th:href="@{reservasSalonConferencia/{id}/delete(id=${reservaSalonConferencia.id})}"
+                            onclick="return confirm('¿Estás seguro de borrar esta reserva?')">Borrar</a>
+                    </td>
+                </tr>
+            </th:block>
+
+        </table>
+        <div>
+            <a th:href='@{reservasSalonConferencia/new}' class="btn btn-primary">Añadir reserva</a>
+            <!-- <a th:href='@{sirven/new}' class="btn btn-primary">Añadir Bebida a Bar</a> -->
+            <a th:href='@{/hotel/administrador/servicios}' class="btn btn-primary">Volver Atrás</a>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>
