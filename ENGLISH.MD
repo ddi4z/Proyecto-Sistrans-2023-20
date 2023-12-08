@@ -1,6 +1,6 @@
 # Project Sistrans 2023-20
 
-This repository houses the deliverables for the project developed within the framework of the Transactional Systems course (ISIS2304). Throughout this project, we focused on database management, covering both relational and non-relational databases. Additionally, we implemented a graphical interface to facilitate the visualization and manipulation of information.
+This repository houses the deliverables for the project developed within the framework of the Transactional Systems course (ISIS2304) of Los Andes University. Throughout this project, we focused on database management, covering both relational and non-relational databases. Additionally, we implemented a graphical interface to facilitate the visualization and manipulation of information.
 
 ## Participants
 - **Wilmer Manuel Arévalo González**
