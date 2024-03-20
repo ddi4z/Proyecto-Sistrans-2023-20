@@ -1,7 +1,6 @@
 package uniandes.edu.co.proyecto.modelo;
 
 import java.sql.Date;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -31,9 +30,7 @@ public class ReservaSpa {
         this.spa = spa;
     }
 
-    public ReservaSpa() {
-        ;
-    }
+    public ReservaSpa() {}
 
     public Integer getId() {
         return id;

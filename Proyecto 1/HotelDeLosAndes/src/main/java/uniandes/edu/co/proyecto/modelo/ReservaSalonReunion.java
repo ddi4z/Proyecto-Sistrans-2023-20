@@ -1,7 +1,6 @@
 package uniandes.edu.co.proyecto.modelo;
 
 import java.time.LocalDateTime;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -35,9 +34,7 @@ public class ReservaSalonReunion {
         this.salon = salon;
     }
 
-    public ReservaSalonReunion() {
-        ;
-    }
+    public ReservaSalonReunion() {}
 
     public Integer getId() {
         return id;
@@ -84,5 +81,4 @@ public class ReservaSalonReunion {
     public void setSalon(SalonReunion salon) {
         this.salon = salon;
     }
-
 }

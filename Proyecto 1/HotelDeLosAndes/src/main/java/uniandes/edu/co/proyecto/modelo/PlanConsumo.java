@@ -1,7 +1,6 @@
 package uniandes.edu.co.proyecto.modelo;
 
 import java.sql.Date;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -35,9 +34,7 @@ public class PlanConsumo {
         this.tipo = tipo;
     }
 
-    public PlanConsumo() {
-        ;
-    }
+    public PlanConsumo() {}
 
     public Integer getId() {
         return id;
@@ -110,6 +107,4 @@ public class PlanConsumo {
     public void setDescuentoSpa(Double descuentoSpa) {
         this.descuentoSpa = descuentoSpa;
     }
-
-    
 }

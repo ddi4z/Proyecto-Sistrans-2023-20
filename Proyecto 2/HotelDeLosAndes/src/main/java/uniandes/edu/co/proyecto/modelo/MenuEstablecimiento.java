@@ -14,9 +14,7 @@ public class MenuEstablecimiento {
         this.pk = new MenuEstablecimientoPK(establecimientoId, productoId);
     }
 
-    public MenuEstablecimiento() {
-        ;
-    }
+    public MenuEstablecimiento() {}
 
     public MenuEstablecimientoPK getPk() {
         return pk;

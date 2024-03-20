@@ -14,9 +14,7 @@ public class Tienen {
         this.pk = new TienenPK(gimnasioId, maquinaGimnasioId);
     }
 
-    public Tienen() {
-        ;
-    }
+    public Tienen() {}
 
     public TienenPK getPk() {
         return pk;

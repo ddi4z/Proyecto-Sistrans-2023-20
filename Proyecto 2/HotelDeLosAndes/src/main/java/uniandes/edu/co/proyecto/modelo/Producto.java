@@ -14,15 +14,13 @@ public class Producto {
     private Integer id;
     private Double costo;
     private Boolean incluidoEnPlanes;
-    
+
     public Producto(Double costo, Boolean incluidoEnPlanes) {
         this.costo = costo;
         this.incluidoEnPlanes = incluidoEnPlanes;
     }
 
-    public Producto() {
-        ;
-    }
+    public Producto() {}
 
     public Integer getId() {
         return id;
@@ -47,6 +45,4 @@ public class Producto {
     public void setIncluidoEnPlanes(Boolean incluidoEnPlanes) {
         this.incluidoEnPlanes = incluidoEnPlanes;
     }
-
-    
 }

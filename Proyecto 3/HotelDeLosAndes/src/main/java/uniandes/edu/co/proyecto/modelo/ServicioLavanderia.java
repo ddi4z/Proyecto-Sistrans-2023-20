@@ -19,6 +19,4 @@ public class ServicioLavanderia extends Servicio{
     public void setCosto(double costo) {
         this.costo = costo;
     }
-
-
 }

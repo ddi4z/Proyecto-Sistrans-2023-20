@@ -14,9 +14,7 @@ public class SpaServicioSpa {
         this.pk = new SpaServicioSpaPK(spaId, servicioSpaId);
     }
 
-    public SpaServicioSpa() {
-        ;
-    }
+    public SpaServicioSpa() {}
 
     public SpaServicioSpaPK getPk() {
         return pk;

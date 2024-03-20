@@ -1,7 +1,6 @@
 package uniandes.edu.co.proyecto.modelo;
 
 import java.sql.Date;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -36,9 +35,7 @@ public class Piscina {
         this.costoAdicional = costoAdicional;
     }
 
-    public Piscina() {
-        ;
-    }
+    public Piscina() {}
 
     public Integer getId() {
         return id;
@@ -47,7 +44,6 @@ public class Piscina {
     public void setId(Integer id) {
         this.id = id;
     }
-
 
     public Integer getCapacidad() {
         return capacidad;
@@ -88,6 +84,7 @@ public class Piscina {
     public void setCostoAdicional(Double costoAdicional) {
         this.costoAdicional = costoAdicional;
     }
+
     public Servicio getServicio() {
         return servicio;
     }
@@ -95,5 +92,4 @@ public class Piscina {
     public void setServicio(Servicio servicio) {
         this.servicio = servicio;
     }
-
 }

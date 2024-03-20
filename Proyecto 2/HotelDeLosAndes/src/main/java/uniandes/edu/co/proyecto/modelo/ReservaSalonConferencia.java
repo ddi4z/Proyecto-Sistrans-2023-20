@@ -41,9 +41,7 @@ public class ReservaSalonConferencia {
         this.usuario = usuario;
     }
 
-    public ReservaSalonConferencia() {
-        ;
-    }
+    public ReservaSalonConferencia() {}
 
     public static Integer getDuracionLimpieza() {
         return duracionLimpieza;
@@ -102,6 +100,5 @@ public class ReservaSalonConferencia {
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
-
 }
 

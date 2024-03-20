@@ -18,19 +18,16 @@ public class Internet {
     @OneToOne
     @PrimaryKeyJoinColumn
     private Servicio servicio;
-    
 
     private Integer capacidad;
     private Double costoDia;
-    
+
     public Internet(Integer capacidad, Double costoDia) {
         this.capacidad = capacidad;
         this.costoDia = costoDia;
     }
 
-    public Internet() {
-        ;
-    }
+    public Internet() {}
 
     public Integer getId() {
         return id;

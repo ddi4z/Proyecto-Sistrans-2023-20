@@ -10,11 +10,9 @@ public class Spa extends Servicio{
         super(nombre, tipo);
         this.capacidad = capacidad;
         this.serviciosSpa = serviciosSpa;
-      
     }
 
-    public Spa() {
-    }
+    public Spa() {}
 
     public int getCapacidad() {
         return capacidad;
@@ -31,8 +29,4 @@ public class Spa extends Servicio{
     public void setServiciosSpa(List<ServicioSpa> serviciosSpa) {
         this.serviciosSpa = serviciosSpa;
     }
-
-    
-    
-
 }

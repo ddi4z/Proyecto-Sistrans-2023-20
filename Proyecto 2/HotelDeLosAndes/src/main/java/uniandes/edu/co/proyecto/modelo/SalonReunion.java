@@ -18,7 +18,6 @@ public class SalonReunion {
     @OneToOne
     @PrimaryKeyJoinColumn
     private Servicio servicio;
-    
 
     private Integer capacidad;
     private Double costoHora;
@@ -30,9 +29,7 @@ public class SalonReunion {
         this.costoEquipos = costoEquipos;
     }
 
-    public SalonReunion() {
-        ;
-    }
+    public SalonReunion() {}
 
     public Integer getId() {
         return id;
@@ -42,7 +39,6 @@ public class SalonReunion {
         this.id = id;
     }
 
-    
     public Integer getCapacidad() {
         return capacidad;
     }
@@ -54,6 +50,7 @@ public class SalonReunion {
     public Double getCostoHora() {
         return costoHora;
     }
+
     public void setCostoHora(Double costoHora) {
         this.costoHora = costoHora;
     }

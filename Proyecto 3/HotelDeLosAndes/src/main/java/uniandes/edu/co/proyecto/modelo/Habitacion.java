@@ -15,8 +15,7 @@ public class Habitacion {
         this.tipo = tipo;
     }
 
-    public Habitacion() {
-    }
+    public Habitacion() {}
 
     public int getId() {
         return id;

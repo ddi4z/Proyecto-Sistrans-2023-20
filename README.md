@@ -2,6 +2,7 @@
 You can read the English version [here](https://github.com/ddi4z/Proyecto-Sistrans-2023-20/blob/main/ENGLISH.MD).
 
 Este repositorio almacena las entregas correspondientes al proyecto desarrollado en el curso de Sistemas Transaccionales (ISIS2304) de la Universidad de Los Andes. Durante este proyecto, nos enfocamos en la gestión de bases de datos, abarcando tanto las relacionales como las no relacionales. Además, implementamos una interfaz gráfica que facilita la visualización y manipulación de la información.
+La aplicación ya no cuenta con la base de datos del curso, por tanto, para probarla es necesario usar una base de datos propia y definirla en el application.properties.
 
 ## Participantes
 - **Wilmer Manuel Arévalo González**
@@ -12,3 +13,4 @@ Este repositorio almacena las entregas correspondientes al proyecto desarrollado
 
 - **Daniel Felipe Diaz Moreno**
   - GitHub: [ddi4z](https://github.com/ddi4z)
+

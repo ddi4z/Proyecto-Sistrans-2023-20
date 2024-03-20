@@ -50,9 +50,7 @@ public class Consumo {
         this.empleado = empleado;
     }
 
-    public Consumo() {
-        ;
-    }
+    public Consumo() {}
 
     public Integer getId() {
         return id;
@@ -125,6 +123,4 @@ public class Consumo {
     public void setEmpleado(Usuario empleado) {
         this.empleado = empleado;
     }
-
-    
 }

@@ -16,9 +16,7 @@ public class Fecha {
         this.fecha = fecha;
     }
 
-    public Fecha() {
-        ;
-    }
+    public Fecha() {}
 
     public LocalDate getFecha() {
         return fecha;
@@ -27,5 +25,4 @@ public class Fecha {
     public void setFecha(LocalDate fecha) {
         this.fecha = fecha;
     }
-
 }

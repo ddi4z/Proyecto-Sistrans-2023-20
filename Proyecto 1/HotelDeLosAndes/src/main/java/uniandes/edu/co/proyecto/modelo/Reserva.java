@@ -1,7 +1,6 @@
 package uniandes.edu.co.proyecto.modelo;
 
 import java.sql.Date;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -44,9 +43,7 @@ public class Reserva {
         this.usuario = usuario;
     }
 
-    public Reserva() {
-        ;
-    }
+    public Reserva() {}
 
     public Integer getId() {
         return id;
@@ -119,7 +116,4 @@ public class Reserva {
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
-
-
-
 }

@@ -18,7 +18,6 @@ public class Spa {
     @OneToOne
     @PrimaryKeyJoinColumn
     private Servicio servicio;
-    
 
     private Integer capacidad;
 
@@ -26,9 +25,7 @@ public class Spa {
         this.capacidad = capacidad;
     }
 
-    public Spa() {
-        ;
-    }
+    public Spa() {}
 
     public Integer getId() {
         return id;
@@ -37,8 +34,6 @@ public class Spa {
     public void setId(Integer id) {
         this.id = id;
     }
-
-
 
     public Integer getCapacidad() {
         return capacidad;
@@ -54,5 +49,4 @@ public class Spa {
     public void setServicio(Servicio servicio) {
         this.servicio = servicio;
     }
-    
 }

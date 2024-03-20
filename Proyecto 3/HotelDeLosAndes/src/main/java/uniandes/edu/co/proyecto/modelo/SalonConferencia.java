@@ -29,6 +29,4 @@ public class SalonConferencia extends Servicio{
     public void setCostoHora(Double costoHora) {
         this.costoHora = costoHora;
     }
-
-    
 }

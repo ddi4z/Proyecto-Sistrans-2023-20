@@ -5,8 +5,7 @@ public class ServicioSpa {
     private int duracionMinutos;
     private double costo;
 
-    public ServicioSpa() {
-    }
+    public ServicioSpa() {}
 
     public ServicioSpa(String nombre, int duracionMinutos, double costo) {
         this.nombre = nombre;
@@ -37,6 +36,4 @@ public class ServicioSpa {
     public void setCosto(double costo) {
         this.costo = costo;
     }
-    
-    
 }

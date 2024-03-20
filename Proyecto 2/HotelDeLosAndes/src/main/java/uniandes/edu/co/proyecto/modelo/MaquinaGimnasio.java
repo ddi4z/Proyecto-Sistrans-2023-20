@@ -13,14 +13,12 @@ public class MaquinaGimnasio {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     private String nombre;
-    
+
     public MaquinaGimnasio(String nombre) {
         this.nombre = nombre;
     }
 
-    public MaquinaGimnasio() {
-        ;
-    }
+    public MaquinaGimnasio() {}
 
     public Integer getId() {
         return id;
@@ -37,5 +35,4 @@ public class MaquinaGimnasio {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
 }

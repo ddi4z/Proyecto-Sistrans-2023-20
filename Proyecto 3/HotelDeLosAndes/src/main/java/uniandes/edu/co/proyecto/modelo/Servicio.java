@@ -41,5 +41,4 @@ public class Servicio {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-
 }

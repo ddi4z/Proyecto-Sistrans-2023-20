@@ -14,9 +14,7 @@ public class ServicioPlan {
         this.pk = new ServicioPlanPK(servicioId, planConsumoId);
     }
 
-    public ServicioPlan() {
-        ;
-    }
+    public ServicioPlan() {}
 
     public ServicioPlanPK getPk() {
         return pk;

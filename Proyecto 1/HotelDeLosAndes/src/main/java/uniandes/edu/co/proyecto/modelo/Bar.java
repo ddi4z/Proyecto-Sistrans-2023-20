@@ -18,7 +18,6 @@ public class Bar {
     @OneToOne
     @PrimaryKeyJoinColumn
     private Servicio servicio;
-    
 
     private Integer capacidad;
     private String estilo;
@@ -40,7 +39,6 @@ public class Bar {
     public void setId(Integer id) {
         this.id = id;
     }
-
 
     public Integer getCapacidad() {
         return capacidad;
@@ -65,5 +63,4 @@ public class Bar {
     public void setServicio(Servicio servicio) {
         this.servicio = servicio;
     }
-    
 }

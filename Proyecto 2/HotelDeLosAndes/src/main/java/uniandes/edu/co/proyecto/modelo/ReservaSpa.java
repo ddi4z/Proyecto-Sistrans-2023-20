@@ -38,9 +38,7 @@ public class ReservaSpa {
         this.usuario = usuario;
     }
 
-    public ReservaSpa() {
-        ;
-    }
+    public ReservaSpa() {}
 
     public Integer getId() {
         return id;
@@ -89,5 +87,4 @@ public class ReservaSpa {
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
-
 }

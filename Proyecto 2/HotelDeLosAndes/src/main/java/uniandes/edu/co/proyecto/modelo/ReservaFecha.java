@@ -14,9 +14,7 @@ public class ReservaFecha {
         this.pk = new ReservaFechaPK(reservaId, fecha);
     }
 
-    public ReservaFecha() {
-        ;
-    }
+    public ReservaFecha() {}
 
     public ReservaFechaPK getPk() {
         return pk;

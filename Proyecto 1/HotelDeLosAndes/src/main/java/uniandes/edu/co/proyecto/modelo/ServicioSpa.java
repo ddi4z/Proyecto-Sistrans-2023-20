@@ -15,16 +15,14 @@ public class ServicioSpa {
     private String nombre;
     private Integer duracion;
     private Double costo;
-    
+
     public ServicioSpa(String nombre, Integer duracion, Double costo) {
         this.nombre = nombre;
         this.duracion = duracion;
         this.costo = costo;
     }
 
-    public ServicioSpa() {
-        ;
-    }
+    public ServicioSpa() {}
 
     public Integer getId() {
         return id;
@@ -57,5 +55,4 @@ public class ServicioSpa {
     public void setCosto(Double costo) {
         this.costo = costo;
     }
-
 }

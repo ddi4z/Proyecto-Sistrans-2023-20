@@ -18,7 +18,6 @@ public class ServicioLavanderia {
     @OneToOne
     @PrimaryKeyJoinColumn
     private Servicio servicio;
-    
 
     private Double costo;
 
@@ -26,9 +25,7 @@ public class ServicioLavanderia {
         this.costo = costo;
     }
 
-    public ServicioLavanderia() {
-        ;
-    }
+    public ServicioLavanderia() {}
 
     public Integer getId() {
         return id;
@@ -38,7 +35,6 @@ public class ServicioLavanderia {
         this.id = id;
     }
 
-
     public Double getCosto() {
         return costo;
     }
@@ -46,5 +42,4 @@ public class ServicioLavanderia {
     public void setCosto(Double costo) {
         this.costo = costo;
     }
-
 }

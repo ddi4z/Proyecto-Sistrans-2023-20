@@ -1,7 +1,5 @@
 package uniandes.edu.co.proyecto.modelo;
 
-
-
 public class Piscina extends Servicio{
     private int capacidad;
     private int profundidad;
@@ -18,8 +16,7 @@ public class Piscina extends Servicio{
         this.costoAdicional = costoAdicional;
     }
 
-    public Piscina() {
-    }
+    public Piscina() {}
 
     public int getCapacidad() {
         return capacidad;
@@ -60,9 +57,4 @@ public class Piscina extends Servicio{
     public void setCostoAdicional(double costoAdicional) {
         this.costoAdicional = costoAdicional;
     }
-
-
-
-    
-
 }

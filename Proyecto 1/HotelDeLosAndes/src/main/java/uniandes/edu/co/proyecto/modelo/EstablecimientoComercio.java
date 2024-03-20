@@ -25,9 +25,7 @@ public class EstablecimientoComercio {
         this.tipo = tipo;
     }
 
-    public EstablecimientoComercio() {
-        ;
-    }
+    public EstablecimientoComercio() {}
 
     public Integer getId() {
         return id;
@@ -36,8 +34,6 @@ public class EstablecimientoComercio {
     public void setId(Integer id) {
         this.id = id;
     }
-
-
 
     public String getTipo() {
         return tipo;
@@ -53,5 +49,4 @@ public class EstablecimientoComercio {
     public void setServicio(Servicio servicio) {
         this.servicio = servicio;
     }
-
 }

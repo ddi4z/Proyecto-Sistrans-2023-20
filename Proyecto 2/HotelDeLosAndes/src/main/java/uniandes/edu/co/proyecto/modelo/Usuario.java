@@ -28,9 +28,7 @@ public class Usuario {
         this.rol = rol;
     }
 
-    public Usuario() {
-        ;
-    }
+    public Usuario() {}
 
     public String getNumDocumento() {
         return numDocumento;

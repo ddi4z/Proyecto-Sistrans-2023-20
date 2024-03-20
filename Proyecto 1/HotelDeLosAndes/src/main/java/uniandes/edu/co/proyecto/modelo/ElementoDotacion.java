@@ -18,9 +18,7 @@ public class ElementoDotacion {
         this.nombre = nombre;
     }
 
-    public ElementoDotacion() {
-        ;
-    }
+    public ElementoDotacion() {}
 
     public Integer getId() {
         return id;

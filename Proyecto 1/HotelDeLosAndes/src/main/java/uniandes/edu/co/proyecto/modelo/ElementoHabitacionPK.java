@@ -37,5 +37,4 @@ public class ElementoHabitacionPK implements Serializable {
     public void setElementoDotacionId(ElementoDotacion elementoDotacionId) {
         this.elementoDotacionId = elementoDotacionId;
     }
-
 }

@@ -37,5 +37,4 @@ public class ReservaFechaPK implements Serializable {
     public void setFecha(Fecha fecha) {
         this.fecha = fecha;
     }
-    
 }

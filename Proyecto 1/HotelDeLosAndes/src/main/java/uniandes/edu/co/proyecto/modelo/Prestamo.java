@@ -18,7 +18,7 @@ public class Prestamo {
     @OneToOne
     @PrimaryKeyJoinColumn
     private Servicio servicio;
-    
+
     private String utensilio;
     private Double costoPerdida;
     private Boolean devuelto;
@@ -29,9 +29,7 @@ public class Prestamo {
         this.devuelto = devuelto;
     }
 
-    public Prestamo() {
-        ;
-    }
+    public Prestamo() {}
 
     public Integer getId() {
         return id;
@@ -71,5 +69,4 @@ public class Prestamo {
     public void setServicio(Servicio servicio) {
         this.servicio = servicio;
     }
-    
 }

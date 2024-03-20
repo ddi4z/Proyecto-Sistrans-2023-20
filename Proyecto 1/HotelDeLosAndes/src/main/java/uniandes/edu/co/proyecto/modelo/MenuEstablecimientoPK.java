@@ -37,6 +37,4 @@ public class MenuEstablecimientoPK implements Serializable {
     public void setProductoId(Producto productoId) {
         this.productoId = productoId;
     }
-
-    
 }

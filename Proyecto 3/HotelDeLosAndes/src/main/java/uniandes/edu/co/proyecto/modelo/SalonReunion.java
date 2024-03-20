@@ -13,8 +13,7 @@ public class SalonReunion extends Servicio{
         this.costoEquipos = costoEquipos;
     }
 
-    public SalonReunion() {
-    }
+    public SalonReunion() {}
 
     public int getCapacidad() {
         return capacidad;
@@ -39,8 +38,4 @@ public class SalonReunion extends Servicio{
     public void setCostoEquipos(double costoEquipos) {
         this.costoEquipos = costoEquipos;
     }
-
-
-    
-
 }

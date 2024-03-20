@@ -56,7 +56,6 @@ public class Prestamo {
         this.devuelto = devuelto;
     }
 
-
     public String getCliente() {
         return cliente;
     }

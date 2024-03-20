@@ -37,5 +37,4 @@ public class ServicioPlanPK implements Serializable {
     public void setPlanConsumoId(PlanConsumo planConsumoId) {
         this.planConsumoId = planConsumoId;
     }
-
 }

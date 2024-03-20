@@ -37,5 +37,4 @@ public class ReservaHabitacionPK implements Serializable {
     public void setHabitacionId(Habitacion habitacionId) {
         this.habitacionId = habitacionId;
     }
-
 }

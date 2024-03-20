@@ -14,8 +14,7 @@ public class Restaurante extends Servicio{
         this.productos = productos;
     }
 
-    public Restaurante() {
-    }
+    public Restaurante() {}
 
     public int getCapacidad() {
         return capacidad;
@@ -40,5 +39,4 @@ public class Restaurante extends Servicio{
     public void setProductos(List<Producto> productos) {
         this.productos = productos;
     }
-
 }

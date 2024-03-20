@@ -60,7 +60,4 @@ public class Gimnasio extends Servicio{
     public void setMaquinas(List<MaquinaGimnasio> maquinas) {
         this.maquinas = maquinas;
     }
-
-    
-
 }

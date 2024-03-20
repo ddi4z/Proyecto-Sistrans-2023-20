@@ -22,9 +22,7 @@ public class TipoHabitacion {
         this.costoNoche = costoNoche;
     }
 
-    public TipoHabitacion() {
-        ;
-    }
+    public TipoHabitacion() {}
 
     public Integer getId() {
         return id;

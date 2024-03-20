@@ -17,7 +17,6 @@ public class Consumo {
     private int servicio;
     private String cliente;
 
-
     public Consumo(LocalDateTime fecha, String descripcion, double costo, boolean pagado, int habitacion,
             int servicio, String cliente) {
         this.fecha = fecha;
@@ -94,6 +93,4 @@ public class Consumo {
     public void setCliente(String cliente) {
         this.cliente = cliente;
     }
-
-
 }

@@ -39,9 +39,7 @@ public class Consumo {
         this.servicio = servicio;
     }
 
-    public Consumo() {
-        ;
-    }
+    public Consumo() {}
 
     public Integer getId() {
         return id;
@@ -98,5 +96,4 @@ public class Consumo {
     public void setServicio(Servicio servicio) {
         this.servicio = servicio;
     }
-
 }

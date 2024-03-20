@@ -11,8 +11,7 @@ public class Internet extends Servicio{
         this.costoDia = costoDia;
     }
 
-    public Internet() {
-    }
+    public Internet() {}
 
     public int getCapacidad() {
         return capacidad;
@@ -29,8 +28,4 @@ public class Internet extends Servicio{
     public void setCostoDia(double costoDia) {
         this.costoDia = costoDia;
     }
-
-
-    
-
 }

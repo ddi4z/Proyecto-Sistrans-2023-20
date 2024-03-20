@@ -18,9 +18,7 @@ public class TipoUsuario {
         this.nombre = nombre;
     }
 
-    public TipoUsuario() {
-        ;
-    }
+    public TipoUsuario() {}
 
     public Integer getId() {
         return id;

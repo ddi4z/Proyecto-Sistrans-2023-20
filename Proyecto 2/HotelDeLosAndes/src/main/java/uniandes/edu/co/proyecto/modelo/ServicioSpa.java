@@ -22,9 +22,7 @@ public class ServicioSpa {
         this.costo = costo;
     }
 
-    public ServicioSpa() {
-        ;
-    }
+    public ServicioSpa() {}
 
     public Integer getId() {
         return id;
@@ -57,5 +55,4 @@ public class ServicioSpa {
     public void setCosto(Double costo) {
         this.costo = costo;
     }
-
 }

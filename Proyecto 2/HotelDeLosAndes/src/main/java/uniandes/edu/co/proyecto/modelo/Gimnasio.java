@@ -20,7 +20,7 @@ public class Gimnasio {
     @OneToOne
     @PrimaryKeyJoinColumn
     private Servicio servicio;
-    
+
     private Integer capacidad;
     private LocalTime horaInicio;
     private LocalTime horaFin;
@@ -34,9 +34,7 @@ public class Gimnasio {
         this.costoAdicional = costoAdicional;
     }
 
-    public Gimnasio() {
-        ;
-    }
+    public Gimnasio() {}
 
     public Integer getId() {
         return id;
@@ -77,6 +75,7 @@ public class Gimnasio {
     public void setCostoAdicional(Double costoAdicional) {
         this.costoAdicional = costoAdicional;
     }
+
     public Servicio getServicio() {
         return servicio;
     }

@@ -11,8 +11,6 @@ public class Usuario {
     private String nombre;
     private String correo;
 
-
-
     public Usuario(String tipoDocumento, String id, String nombre, String correo) {
         this.tipoDocumento = tipoDocumento;
         this.id = id;
@@ -53,5 +51,4 @@ public class Usuario {
     public void setCorreo(String correo) {
         this.correo = correo;
     }
-
 }

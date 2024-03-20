@@ -35,9 +35,7 @@ public class PlanConsumo {
         this.tipo = tipo;
     }
 
-    public PlanConsumo() {
-        ;
-    }
+    public PlanConsumo() {}
 
     public Integer getId() {
         return id;
@@ -110,6 +108,4 @@ public class PlanConsumo {
     public void setDescuentoSpa(Double descuentoSpa) {
         this.descuentoSpa = descuentoSpa;
     }
-
-    
 }

@@ -18,7 +18,7 @@ public class SalonConferencia {
     @OneToOne
     @PrimaryKeyJoinColumn
     private Servicio servicio;
-    
+
     private Integer capacidad;
     private Double costoHora;
 
@@ -28,9 +28,7 @@ public class SalonConferencia {
         this.costoHora = costoHora;
     }
 
-    public SalonConferencia() {
-        ;
-    }
+    public SalonConferencia() {}
 
     public Integer getId() {
         return id;

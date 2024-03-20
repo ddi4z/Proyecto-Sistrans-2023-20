@@ -37,6 +37,5 @@ public class MenuBarPK implements Serializable {
     public void setProductoId(Producto productoId) {
         this.productoId = productoId;
     }
-
 }
 

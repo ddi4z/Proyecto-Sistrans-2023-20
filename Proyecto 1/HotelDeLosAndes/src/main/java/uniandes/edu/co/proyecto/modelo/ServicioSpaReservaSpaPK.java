@@ -37,7 +37,4 @@ public class ServicioSpaReservaSpaPK implements Serializable {
     public void setServicioSpaId(ServicioSpa servicioSpaId) {
         this.servicioSpaId = servicioSpaId;
     }
-
-    
-
 }

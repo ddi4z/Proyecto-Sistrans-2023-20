@@ -37,6 +37,4 @@ public class TienenPK implements Serializable {
     public void setMaquinaGimnasioId(MaquinaGimnasio maquinaGimnasioId) {
         this.maquinaGimnasioId = maquinaGimnasioId;
     }
-
-
 }

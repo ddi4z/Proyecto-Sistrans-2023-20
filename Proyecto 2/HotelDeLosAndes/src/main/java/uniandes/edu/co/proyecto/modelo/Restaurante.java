@@ -27,9 +27,7 @@ public class Restaurante {
         this.estilo = estilo;
     }
 
-    public Restaurante() {
-        ;
-    }
+    public Restaurante() {}
 
     public Integer getId() {
         return id;
@@ -55,6 +53,7 @@ public class Restaurante {
     public void setEstilo(String estilo) {
         this.estilo = estilo;
     }
+
     public Servicio getServicio() {
         return servicio;
     }

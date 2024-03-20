@@ -14,9 +14,7 @@ public class ReservaHabitacion {
         this.pk = new ReservaHabitacionPK(reservaId, habitacionId);
     }
 
-    public ReservaHabitacion() {
-        ;
-    }
+    public ReservaHabitacion() {}
 
     public ReservaHabitacionPK getPk() {
         return pk;

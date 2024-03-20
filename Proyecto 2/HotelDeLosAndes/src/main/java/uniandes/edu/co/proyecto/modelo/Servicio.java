@@ -20,9 +20,7 @@ public class Servicio {
         this.tipo = tipo;
     }
 
-    public Servicio() {
-        ;
-    }
+    public Servicio() {}
 
     public Integer getId() {
         return id;
@@ -47,6 +45,4 @@ public class Servicio {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-
-    
 }

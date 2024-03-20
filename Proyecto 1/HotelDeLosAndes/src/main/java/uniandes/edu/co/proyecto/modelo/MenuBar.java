@@ -14,9 +14,7 @@ public class MenuBar {
         this.pk = new MenuBarPK(barId, productoId);
     }
 
-    public MenuBar() {
-        ;
-    }
+    public MenuBar() {}
 
     public MenuBarPK getPk() {
         return pk;

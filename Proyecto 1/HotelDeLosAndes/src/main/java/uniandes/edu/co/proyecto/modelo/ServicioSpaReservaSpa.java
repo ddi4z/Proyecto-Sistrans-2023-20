@@ -14,9 +14,7 @@ public class ServicioSpaReservaSpa {
         this.pk = new ServicioSpaReservaSpaPK(reservaSpaId, servicioSpaId);
     }
 
-    public ServicioSpaReservaSpa() {
-        ;
-    }
+    public ServicioSpaReservaSpa() {}
 
     public ServicioSpaReservaSpaPK getPk() {
         return pk;

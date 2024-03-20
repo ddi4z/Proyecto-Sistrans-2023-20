@@ -12,11 +12,9 @@ public class Bar extends Servicio{
         this.capacidad = capacidad;
         this.estilo = estilo;
         this.productos = productos;
-
     }
 
-    public Bar() {
-    }
+    public Bar() {}
 
     public int getCapacidad() {
         return capacidad;
@@ -41,6 +39,4 @@ public class Bar extends Servicio{
     public void setProductos(List<Producto> productos) {
         this.productos = productos;
     }
-
-
 }

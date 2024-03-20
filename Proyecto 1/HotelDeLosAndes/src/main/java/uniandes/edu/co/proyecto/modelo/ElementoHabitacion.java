@@ -14,9 +14,7 @@ public class ElementoHabitacion {
         this.pk = new ElementoHabitacionPK(tipoHabitacionId, elementoDotacionId);
     }
 
-    public ElementoHabitacion() {
-        ;
-    }
+    public ElementoHabitacion() {}
 
     public ElementoHabitacionPK getPk() {
         return pk;
